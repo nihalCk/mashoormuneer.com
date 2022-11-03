@@ -36,7 +36,7 @@ const Navbar = () => {
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu "}>
           <li>
-            <Link to="/portfolio">Potography</Link>
+            <Link to="/portfolio">Photography</Link>
           </li>
           <li>
             <Link to="/portfolio">Films</Link>
@@ -57,10 +57,10 @@ const Navbar = () => {
           )}
         </div>
         <div className="nav-social" style={{paddingTop:20 }}>
-            <BsInstagram size={15} style={{ color: '#000', cursor:"pointer"   }} className='insta'/>
-            <ImFacebook size={15} style={{ color: '#000', marginRight:10, marginLeft:10, cursor:"pointer" }}/>
-            <FiYoutube size={20} style={{ color: '#000', marginRight:10, cursor:"pointer" }}/>
-            <SiGmail size={15} style={{ color: '#000', cursor:"pointer" }}/>
+            <BsInstagram size={15} style={{ color: '#000', cursor:"pointer"   }} className='socialmedia'/>
+            <ImFacebook size={15} style={{ color: '#000', marginRight:10, marginLeft:10, cursor:"pointer" }} className='socialmedia'/>
+            <FiYoutube size={20} style={{ color: '#000', marginRight:10, cursor:"pointer" }} className='socialmedia'/>
+            <SiGmail size={15} style={{ color: '#000', cursor:"pointer" }} className='socialmedia'/>
         </div>
       </Container>
     </Container>

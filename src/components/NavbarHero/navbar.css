@@ -71,6 +71,11 @@
 
   .nav-menu li a {
     font-size: 2rem;
+    background: white;
+    width: -9px;
+    height: 33px;
+    padding: 7px;
+    border-radius: 18px;
   }
   .humburger {
     display: flex;
@@ -101,6 +106,6 @@ ul{
   margin-bottom: 0 !important;
 }
 
-.insta:hover{
-  color: red !important;
+.socialmedia:hover{
+  color:  #3b5998 !important;
 }

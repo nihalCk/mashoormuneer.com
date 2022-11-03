@@ -1,4 +1,4 @@
-import "../About/AboutPage.css";
+import "./AboutPage.css";
 
 import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";

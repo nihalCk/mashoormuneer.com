@@ -1,6 +1,5 @@
 import "./homeSlider.css";
 
-
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
 
@@ -15,12 +14,12 @@ import slider4 from "../../assets/img/home-slider/MSR03658 1.png";
 import slider5 from "../../assets/img/home-slider/Untitled-1-02.png";
 
 import home1 from "../../assets/img/home-section-3-img1.png";
-import home2 from "../../assets/img/home-section-3-img2.png";
-import home3 from "../../assets/img/home-section-3-img3.png";
-import home4 from "../../assets/img/home-section-3-img4.png";
+// import home2 from "../../assets/img/home-section-3-img2.png";
+// import home3 from "../../assets/img/home-section-3-img3.png";
+// import home4 from "../../assets/img/home-section-3-img4.png";
 
-import home5 from "../../assets/img/home_last1.png";
-import home6 from "../../assets/img/home_last2.png";
+// import home5 from "../../assets/img/home_last1.png";
+// import home6 from "../../assets/img/home_last2.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
@@ -91,7 +90,7 @@ const homeSlider = () => {
       <section className="home_second_section pb-0">
         <Container>
           <Row>
-            <Col lg={12}>
+            <Col lg={4}>
               <motion.div
                 variants={scaleVariants}
                 whileInView={scaleVariants.whileInView}
@@ -100,7 +99,86 @@ const homeSlider = () => {
                 <img src={home1} alt="#" className="img-fluid" />
               </motion.div>
             </Col>
-            <Col lg={4} className="pt-4 d-flex justify-content-center">
+            <Col lg={4}>
+              <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className="fill "
+              >
+                <img src={home1} alt="#" className="img-fluid" />
+              </motion.div>
+            </Col>
+            <Col lg={4}>
+              <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className="fill "
+              >
+                <img src={home1} alt="#" className="img-fluid" />
+              </motion.div>
+            </Col>
+          </Row>
+
+          <Row className="pt-4">
+            <Col lg={4}>
+              <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className="fill "
+              >
+                <img src={home1} alt="#" className="img-fluid" />
+              </motion.div>
+            </Col>
+            <Col lg={4}>
+              <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className="fill "
+              >
+                <img src={home1} alt="#" className="img-fluid" />
+              </motion.div>
+            </Col>
+            <Col lg={4}>
+              <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className="fill "
+              >
+                <img src={home1} alt="#" className="img-fluid" />
+              </motion.div>
+            </Col>
+          </Row>
+
+          <Row className="pt-4">
+            <Col lg={4}>
+              <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className="fill "
+              >
+                <img src={home1} alt="#" className="img-fluid" />
+              </motion.div>
+            </Col>
+            <Col lg={4}>
+              <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className="fill "
+              >
+                <img src={home1} alt="#" className="img-fluid" />
+              </motion.div>
+            </Col>
+            <Col lg={4}>
+              <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className="fill "
+              >
+                <img src={home1} alt="#" className="img-fluid" />
+              </motion.div>
+            </Col>
+
+            {/* <Col lg={4} className="pt-4 d-flex justify-content-center">
               <div className="fill about__img">
                 <img src={home2} alt="#" className="img-fluid" />
               </div>
@@ -114,15 +192,22 @@ const homeSlider = () => {
               <div className="fill">
                 <img src={home4} alt="#" className="img-fluid" />
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </section>
       <section>
         <Container>
           <Row>
-            <Col lg={6} className="">
-              <motion.div
+            <Col lg={12} className="">
+              <div className="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/pdY94RWx9Pg"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              {/* <motion.div
                 whileInView={{ y: [100, 0], opacity: [0, 1] }}
                 transition={{ duration: 1 }}
                 className="fill "
@@ -137,7 +222,7 @@ const homeSlider = () => {
                 className="fill pa_tp-5"
               >
                 <img src={home6} alt="#" className="img-fluid" />
-              </motion.div>
+              </motion.div> */}
             </Col>
           </Row>
         </Container>
