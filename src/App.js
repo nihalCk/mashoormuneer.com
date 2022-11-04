@@ -7,7 +7,6 @@ import Portfolio from "./routes/Portfolio";
 import Contact from "./routes/Contact";
 import HeadShot from "./routes/HeadShot";
 import PortfolioOne from "./routes/PortfolioOne";
-import ImageGallery from "./components/Gallery/Gallery"
 
 
 
@@ -21,7 +20,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/headshot" element={<HeadShot />} />
         <Route path="/portfolioone" element={<PortfolioOne />} />
-        <Route path="/imagegallery" element={<ImageGallery/>} />
       </Routes>
     </>
   );

@@ -78,7 +78,7 @@ class PortfolioPage extends Component {
                 </div>
 
                 <div className="portfolio__arrow">
-                  <img src={Arrow} alt="fa" />
+                  <img src={Arrow} alt="fa"/>
                 </div>
                 </Link>
               </Col>

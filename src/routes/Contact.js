@@ -5,6 +5,7 @@ import ContactPage from "../components/Contact/ContactPage";
 
 
 
+
 const Contact = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Contact = () => {
                 vitae commodo mauris risus. Fames mattis blandit rhoncus
                 suspendisse eu nisl."
       />
+     
   
       
     </>

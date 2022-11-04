@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <Container fluid className={color ? "header header-bg" : "header"}>
-      <Container className="header-second">
+      <Container className="header-second navbar-inner">
         <Link to="/" className="logo_show">
           <img src={logo1} alt="#" />
         </Link>

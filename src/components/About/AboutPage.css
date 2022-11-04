@@ -55,7 +55,7 @@
   overflow: hidden;
   padding-right: 0.11em;
 }
-h1.letters span.letter_1 {
+.about-content h1.letters span.letter_1 {
   position: relative;
   display: inline-block;
   animation-name: text-up;
@@ -103,6 +103,6 @@ p.lettersbutton .letter_4 {
   }
 }
 
-h1.letters {
+.about-content h1.letters {
   overflow-y: hidden;
 }

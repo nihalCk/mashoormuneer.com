@@ -38,7 +38,11 @@
   color: #ffff;
 }
 
-
+.header-bg .nav-menu a,
+.header-bg .socialmedia,
+.header-bg .bars {
+  color: #000;
+}
 
 .humburger {
   display: none;
@@ -71,6 +75,7 @@
 
   .nav-menu li a {
     font-size: 2rem;
+    color: #000;
     
   }
   .humburger {
@@ -106,6 +111,13 @@ ul{
   color:  #3b5998 !important;
 }
 
-.socialmedia{
-  
+.times{
+  color: #000;
 }
+
+.bars{
+  color: #fff;
+}
+
+
+

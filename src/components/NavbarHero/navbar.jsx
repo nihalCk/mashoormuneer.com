@@ -1,4 +1,4 @@
-import "./navbar.css";
+import  "./navbar.css";
 import logo1 from "../../assets/img/Mashoor Muneer.png";
 
 import React, { useState } from "react";
@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <Container fluid className={color ? "header header-bg" : "header"}>
-      <Container className="header-second">
+      <Container className="header-second navbar-hero">
         <Link to="/" className={color ? "logo_show" : "logo-1"}>
           <img src={logo1} alt="#" />
         </Link>
@@ -51,9 +51,9 @@ const Navbar = () => {
         
         <div className="humburger" onClick={handleClick}>
           {click ? (
-            <FaTimes size={20} style={{ color: "#000" }} />
+            <FaTimes size={20} className='times' />
           ) : (
-            <FaBars size={20} style={{ color: "#000" }} />
+            <FaBars size={20} className='bars' />
           )}
         </div>
         <div className="nav-social" style={{paddingTop:20 }}>
