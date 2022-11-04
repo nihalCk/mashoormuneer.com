@@ -90,7 +90,7 @@ const homeSlider = () => {
       <section className="home_second_section pb-0">
         <Container>
           <Row>
-            <Col lg={4}>
+            <Col xs={4}>
               <motion.div
                 variants={scaleVariants}
                 whileInView={scaleVariants.whileInView}
@@ -99,7 +99,7 @@ const homeSlider = () => {
                 <img src={home1} alt="#" className="img-fluid" />
               </motion.div>
             </Col>
-            <Col lg={4}>
+            <Col xs={4}>
               <motion.div
                 variants={scaleVariants}
                 whileInView={scaleVariants.whileInView}
@@ -108,37 +108,7 @@ const homeSlider = () => {
                 <img src={home1} alt="#" className="img-fluid" />
               </motion.div>
             </Col>
-            <Col lg={4}>
-              <motion.div
-                variants={scaleVariants}
-                whileInView={scaleVariants.whileInView}
-                className="fill "
-              >
-                <img src={home1} alt="#" className="img-fluid" />
-              </motion.div>
-            </Col>
-          </Row>
-
-          <Row className="pt-4">
-            <Col lg={4}>
-              <motion.div
-                variants={scaleVariants}
-                whileInView={scaleVariants.whileInView}
-                className="fill "
-              >
-                <img src={home1} alt="#" className="img-fluid" />
-              </motion.div>
-            </Col>
-            <Col lg={4}>
-              <motion.div
-                variants={scaleVariants}
-                whileInView={scaleVariants.whileInView}
-                className="fill "
-              >
-                <img src={home1} alt="#" className="img-fluid" />
-              </motion.div>
-            </Col>
-            <Col lg={4}>
+            <Col xsxs={4}>
               <motion.div
                 variants={scaleVariants}
                 whileInView={scaleVariants.whileInView}
@@ -150,7 +120,7 @@ const homeSlider = () => {
           </Row>
 
           <Row className="pt-4">
-            <Col lg={4}>
+            <Col xs={4}>
               <motion.div
                 variants={scaleVariants}
                 whileInView={scaleVariants.whileInView}
@@ -159,7 +129,7 @@ const homeSlider = () => {
                 <img src={home1} alt="#" className="img-fluid" />
               </motion.div>
             </Col>
-            <Col lg={4}>
+            <Col xs={4}>
               <motion.div
                 variants={scaleVariants}
                 whileInView={scaleVariants.whileInView}
@@ -168,7 +138,37 @@ const homeSlider = () => {
                 <img src={home1} alt="#" className="img-fluid" />
               </motion.div>
             </Col>
-            <Col lg={4}>
+            <Col xs={4}>
+              <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className="fill "
+              >
+                <img src={home1} alt="#" className="img-fluid" />
+              </motion.div>
+            </Col>
+          </Row>
+
+          <Row className="pt-4">
+            <Col xs={4}>
+              <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className="fill "
+              >
+                <img src={home1} alt="#" className="img-fluid" />
+              </motion.div>
+            </Col>
+            <Col xs={4}>
+              <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className="fill "
+              >
+                <img src={home1} alt="#" className="img-fluid" />
+              </motion.div>
+            </Col>
+            <Col xs={4}>
               <motion.div
                 variants={scaleVariants}
                 whileInView={scaleVariants.whileInView}

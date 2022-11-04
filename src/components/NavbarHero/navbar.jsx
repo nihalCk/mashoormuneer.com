@@ -57,10 +57,10 @@ const Navbar = () => {
           )}
         </div>
         <div className="nav-social" style={{paddingTop:20 }}>
-            <BsInstagram size={15} style={{ color: '#000', cursor:"pointer"   }} className='socialmedia'/>
-            <ImFacebook size={15} style={{ color: '#000', marginRight:10, marginLeft:10, cursor:"pointer" }} className='socialmedia'/>
-            <FiYoutube size={20} style={{ color: '#000', marginRight:10, cursor:"pointer" }} className='socialmedia'/>
-            <SiGmail size={15} style={{ color: '#000', cursor:"pointer" }} className='socialmedia'/>
+            <BsInstagram size={15} style={{ cursor:"pointer"   }} className='socialmedia'/>
+            <ImFacebook size={15} style={{  marginRight:10, marginLeft:10, cursor:"pointer" }} className='socialmedia'/>
+            <FiYoutube size={20} style={{  marginRight:10, cursor:"pointer" }} className='socialmedia'/>
+            <SiGmail size={15} style={{  cursor:"pointer" }} className='socialmedia'/>
         </div>
       </Container>
     </Container>
