@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mashoormuneer.com/static/css/main.3bbdb80f.css",
-    "main.js": "/mashoormuneer.com/static/js/main.ee0ff9ec.js",
+    "main.css": "/mashoormuneer.com/static/css/main.ea194b7c.css",
+    "main.js": "/mashoormuneer.com/static/js/main.a9affc0b.js",
     "static/media/005.png": "/mashoormuneer.com/static/media/005.1df3690035164362f4af.png",
     "static/media/IMG_3990 1.png": "/mashoormuneer.com/static/media/IMG_3990 1.1df3690035164362f4af.png",
     "static/media/008.png": "/mashoormuneer.com/static/media/008.2225b76d1fa9b8906557.png",
@@ -17,9 +17,9 @@
     "static/media/0011.png": "/mashoormuneer.com/static/media/0011.bc25abc62ae2043d4621.png",
     "static/media/MSR04688.png": "/mashoormuneer.com/static/media/MSR04688.bc25abc62ae2043d4621.png",
     "static/media/0012.png": "/mashoormuneer.com/static/media/0012.6492e9177157a4b60ea6.png",
-    "static/media/MSR06080.png": "/mashoormuneer.com/static/media/MSR06080.6492e9177157a4b60ea6.png",
+    "static/media/img2.png": "/mashoormuneer.com/static/media/img2.6492e9177157a4b60ea6.png",
     "static/media/002.png": "/mashoormuneer.com/static/media/002.f510d1cd11d1d6d240d4.png",
-    "static/media/delhistreet8.png": "/mashoormuneer.com/static/media/delhistreet8.f510d1cd11d1d6d240d4.png",
+    "static/media/img3.png": "/mashoormuneer.com/static/media/img3.f510d1cd11d1d6d240d4.png",
     "static/media/006.png": "/mashoormuneer.com/static/media/006.9d94f2fcf18b7dcfe632.png",
     "static/media/IMG_6913.png": "/mashoormuneer.com/static/media/IMG_6913.9d94f2fcf18b7dcfe632.png",
     "static/media/MSR04286.png": "/mashoormuneer.com/static/media/MSR04286.7403c71ea83302c30b0b.png",
@@ -31,15 +31,15 @@
     "static/media/9EFBC5D6-DAFC-4FF9-81EC-AADAB41A78F3 2.png": "/mashoormuneer.com/static/media/9EFBC5D6-DAFC-4FF9-81EC-AADAB41A78F3 2.eb699d4d1678540a25ae.png",
     "static/media/Raleway-VariableFont_wght.ttf": "/mashoormuneer.com/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
     "static/media/Raleway-Italic-VariableFont_wght.ttf": "/mashoormuneer.com/static/media/Raleway-Italic-VariableFont_wght.292a60624abe8149803a.ttf",
-    "static/media/MSR04632.png": "/mashoormuneer.com/static/media/MSR04632.c85082e73fc6a7c6d9b4.png",
+    "static/media/img1.png": "/mashoormuneer.com/static/media/img1.c85082e73fc6a7c6d9b4.png",
     "static/media/FanwoodText-Regular.ttf": "/mashoormuneer.com/static/media/FanwoodText-Regular.81fb0916bffb98af80d4.ttf",
     "static/media/FanwoodText-Italic.ttf": "/mashoormuneer.com/static/media/FanwoodText-Italic.7e9cdfb58a63c86c98d6.ttf",
     "index.html": "/mashoormuneer.com/index.html",
-    "main.3bbdb80f.css.map": "/mashoormuneer.com/static/css/main.3bbdb80f.css.map",
-    "main.ee0ff9ec.js.map": "/mashoormuneer.com/static/js/main.ee0ff9ec.js.map"
+    "main.ea194b7c.css.map": "/mashoormuneer.com/static/css/main.ea194b7c.css.map",
+    "main.a9affc0b.js.map": "/mashoormuneer.com/static/js/main.a9affc0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bbdb80f.css",
-    "static/js/main.ee0ff9ec.js"
+    "static/css/main.ea194b7c.css",
+    "static/js/main.a9affc0b.js"
   ]
 }
