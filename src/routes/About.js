@@ -2,8 +2,6 @@ import React from "react";
 import NavbarInner from "../components/NavbarInner/NavbarInner";
 import AboutPage from "../components/About/AboutPage";
 
-
-
 const About = () => {
   return (
     <>
@@ -17,8 +15,6 @@ const About = () => {
                 vitae commodo mauris risus. Fames mattis blandit rhoncus
                 suspendisse eu nisl."
       />
-   
-
     </>
   );
 };

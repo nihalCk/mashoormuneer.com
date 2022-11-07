@@ -1,15 +1,22 @@
 import React from "react";
 import Navbar from "../components/NavbarHero/navbar";
-import HomeSlider from "../components/HomeSlider/HomeSlider";
-
+import ImageGrid from "../components/ImageGrid/ImageGrid";
+import HomeBanner from '../components/HomeBanner/HomeBanner';
+import HomeButton from "../components/HomeButton/HomeButton";
+import HomeVideo from "../components/HomeVideo_Section/HomeVideo";
+import ClientSection from "../components/ClientSection/ClientSection";
 
 
 const Home = () => {
   return (
     <>
         <Navbar />
-        <HomeSlider />
-        
+        <HomeBanner />
+        <HomeButton />
+        <ImageGrid />
+        <HomeVideo />
+        <ClientSection />
+
     </>
   );
 };
