@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mashoormuneer.com/static/css/main.50cb2865.css",
-    "main.js": "/mashoormuneer.com/static/js/main.712fb797.js",
+    "main.css": "/mashoormuneer.com/static/css/main.3bbdb80f.css",
+    "main.js": "/mashoormuneer.com/static/js/main.ee0ff9ec.js",
     "static/media/005.png": "/mashoormuneer.com/static/media/005.1df3690035164362f4af.png",
     "static/media/IMG_3990 1.png": "/mashoormuneer.com/static/media/IMG_3990 1.1df3690035164362f4af.png",
     "static/media/008.png": "/mashoormuneer.com/static/media/008.2225b76d1fa9b8906557.png",
@@ -35,11 +35,11 @@
     "static/media/FanwoodText-Regular.ttf": "/mashoormuneer.com/static/media/FanwoodText-Regular.81fb0916bffb98af80d4.ttf",
     "static/media/FanwoodText-Italic.ttf": "/mashoormuneer.com/static/media/FanwoodText-Italic.7e9cdfb58a63c86c98d6.ttf",
     "index.html": "/mashoormuneer.com/index.html",
-    "main.50cb2865.css.map": "/mashoormuneer.com/static/css/main.50cb2865.css.map",
-    "main.712fb797.js.map": "/mashoormuneer.com/static/js/main.712fb797.js.map"
+    "main.3bbdb80f.css.map": "/mashoormuneer.com/static/css/main.3bbdb80f.css.map",
+    "main.ee0ff9ec.js.map": "/mashoormuneer.com/static/js/main.ee0ff9ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.50cb2865.css",
-    "static/js/main.712fb797.js"
+    "static/css/main.3bbdb80f.css",
+    "static/js/main.ee0ff9ec.js"
   ]
 }
