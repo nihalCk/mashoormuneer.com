@@ -121,7 +121,8 @@ ul{
 
 
 
-.nav-menu li a:hover {
+.nav-menu li a:hover
+ {
   color: #000;
   background: #fff;
   padding: 10px;
@@ -130,3 +131,4 @@ ul{
   margin-left: -10px;
   transition: 0.2s;
 }
+

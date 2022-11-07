@@ -12,7 +12,7 @@ const ClientSection = () => {
         <Container>
           <Row>
             <Col>
-              <div className="">
+              <div className="client_main">
                 <h1 className="mt-lg-0 mt-4 mb-0 pre_line letters client-logo">
                   <span className="lettersspan">
                     <span className="letter_1" style={{ color: "#212529" }}>

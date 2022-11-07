@@ -34,7 +34,7 @@ const Navbar = () => {
           <img src={logo1} alt="#" />
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu "}>
-          <li>
+          <li >
             <Link to="/portfolio">Photography</Link>
           </li>
           <li>

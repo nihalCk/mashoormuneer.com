@@ -1,3 +1,8 @@
+.client_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .lettersspan,
 .lettersp,
@@ -15,7 +20,7 @@ h1.letters span.letter_1 {
   animation-duration: 0.8s;
   opacity: 0;
   animation-fill-mode: forwards;
-  font-family: "FanwoodText-Regular", sans-serif ;
+  font-family: "FanwoodText-Regular", sans-serif;
 }
 h1.letters span.letter_2 {
   position: relative;
