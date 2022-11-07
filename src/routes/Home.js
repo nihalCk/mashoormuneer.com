@@ -12,10 +12,18 @@ const Home = () => {
     <>
         <Navbar />
         <HomeBanner />
-        <HomeButton />
+        <HomeButton 
+          heading="Photography"
+          path="/Portfolio"
+        />
         <ImageGrid />
         <HomeVideo />
+        <HomeButton 
+          heading="Show more +"
+          path="/About"
+        />
         <ClientSection />
+        
 
     </>
   );

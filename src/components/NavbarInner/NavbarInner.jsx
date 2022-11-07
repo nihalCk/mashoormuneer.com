@@ -1,6 +1,10 @@
 import "../NavbarInner/NavbarInner.css";
 
 import logo1 from "../../assets/img/Mashoor Muneer.png";
+import { BsInstagram } from "react-icons/bs";
+import { ImFacebook } from "react-icons/im";
+import { FiYoutube } from "react-icons/fi";
+import { SiGmail } from "react-icons/si";
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
@@ -49,6 +53,12 @@ const Navbar = () => {
           ) : (
             <FaBars size={20} style={{ color: "#000" }} />
           )}
+        </div>
+        <div className="nav-social" style={{paddingTop:20 }}>
+            <BsInstagram size={15} style={{ cursor:"pointer"   }} className='socialmedia'/>
+            <ImFacebook size={15} style={{  marginRight:10, marginLeft:10, cursor:"pointer" }} className='socialmedia'/>
+            <FiYoutube size={20} style={{  marginRight:10, cursor:"pointer" }} className='socialmedia'/>
+            <SiGmail size={15} style={{  cursor:"pointer" }} className='socialmedia'/>
         </div>
       </Container>
     </Container>

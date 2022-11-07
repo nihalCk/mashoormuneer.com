@@ -1,5 +1,7 @@
 import { Image } from "react-grid-gallery";
 
+import './ImageGrid.css';
+
 import home from "../../assets/img/homegrid/003.png"
 import home1 from "../../assets/img/homegrid/002.png"
 import home2 from "../../assets/img/homegrid/004.png"
@@ -30,6 +32,7 @@ export const images: CustomImage[] = [
     original: home,
     width: 320,
     height: 174,
+    className:"jhon",
     tags: [
       // { value: "Nature", title: "Nature" },
       // { value: "Flora", title: "Flora" },

@@ -1,10 +1,11 @@
 import React from "react";
+import "./HomeVideo.css"
 
 import { Container, Row, Col } from "react-bootstrap";
 
 const HomeVideo = () => {
   return (
-    <section>
+    <section className="HomeVideo">
       <Container>
         <Row>
           <Col lg={12} className="">

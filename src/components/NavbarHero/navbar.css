@@ -38,7 +38,7 @@
   color: #ffff;
 }
 
-.header-bg .nav-menu a,
+/* .header-bg .nav-menu a, */
 .header-bg .socialmedia,
 .header-bg .bars {
   color: #000;
@@ -84,6 +84,16 @@
     color: #fff !important;
     align-items: center;
   }
+  ul{
+    background: black;
+    border-radius: 0;
+    position: absolute;
+    top: 878px;
+    left: 38%;
+    width: 476px;
+  
+  }
+  
 }
 
 .logo-1 {
@@ -119,5 +129,24 @@ ul{
   color: #fff;
 }
 
+ul{
+  background: black;
+  border-radius: 50px;
+  position: absolute;
+  top: 90vh;
+  left: 38%;
+  width: 476px;
+
+}
 
 
+
+.nav-menu li a:hover {
+  color: #000;
+  background: #fff;
+  width: 20px;
+  padding: 10px;
+  border-radius: 27px;
+
+ 
+}

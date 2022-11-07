@@ -21,12 +21,15 @@ const ImageGrid = () => {
   const handleClose = () => setIndex(-1);
   const handleMovePrev = () => setIndex(prevIndex);
   const handleMoveNext = () => setIndex(nextIndex);
+
+
   return (
     <Container>
       <Gallery
         images={images}
         onClick={handleClick}
         enableImageSelection={false}
+        
       />
       {!!currentImage && (
         /* @ts-ignore */
@@ -41,6 +44,7 @@ const ImageGrid = () => {
           onCloseRequest={handleClose}
           onMovePrevRequest={handleMovePrev}
           onMoveNextRequest={handleMoveNext}
+          enableZoom={false}
         />
       )}
     </Container>

@@ -30,17 +30,18 @@
 
 .nav-menu {
   display: flex;
-  align-items: flex-end;
-  height: 5vh;
+  align-items: center;
+  height: 6vh;
 }
-.nav-menu li {
-  padding: 0 1rem;
-}
+/* .nav-menu li {
+  padding: 14px 1rem;
+} */
 
 .navbar-inner .nav-menu li a {
   font-size: 1.4rem;
   font-weight: 500;
-  color: #000;
+  color: #fff;
+
 }
 
 .humburger {
@@ -70,12 +71,22 @@
 
   .nav-menu li a {
     font-size: 2rem;
+    color: #000;
   }
   .humburger {
     display: flex;
     cursor: pointer;
     color: #fff !important;
     align-items: center;
+  }
+  ul{
+    background: black;
+    border-radius: 0px !important;
+    position: absolute;
+    top: 894px;
+    left: 38%;
+    width: 476px;
+  
   }
 }
 
@@ -92,4 +103,30 @@
 .logo_show {
   display: flex;
   align-items: center;
+}
+
+
+
+ul{
+  background: black;
+  border-radius: 50px;
+  position: absolute;
+  top: 90vh;
+  left: 38%;
+  width: 476px;
+  padding-left: 0 !important;
+  justify-content: space-between;
+
+}
+
+
+
+.nav-menu li a:hover {
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  border-radius: 27px;
+  margin-right: -10px;
+  margin-left: -10px;
+  transition: 0.2s;
 }
