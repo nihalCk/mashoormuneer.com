@@ -14,13 +14,13 @@ const Home = () => {
         <HomeBanner />
         <HomeButton 
           heading="Photography"
-          path="/Portfolio"
+          path="/Photography"
         />
         <ImageGrid />
         <HomeVideo />
         <HomeButton 
           heading="Show more +"
-          path="/About"
+          path="/filims"
         />
         <ClientSection />
         

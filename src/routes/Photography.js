@@ -6,7 +6,7 @@ import img1 from "../assets/img/portfolio/img1.png";
 import img2 from "../assets/img/portfolio/img2.png";
 import img3 from "../assets/img/portfolio/img3.png";
 
-const Portfolio = () => {
+const Photography = () => {
   return (
     <>
       <NavbarInner />
@@ -21,7 +21,7 @@ const Portfolio = () => {
       />
       <PhotographySection2
         img= {img1}
-        path="/Contact"
+        path="/Portraites"
         sub="Show more +"
         heading="Portraites"
         text="Tempus, aliquam etiam ut adipiscing nec nibh. Nisi, enim arcu
@@ -59,4 +59,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Photography;

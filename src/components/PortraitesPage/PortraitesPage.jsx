@@ -1,4 +1,4 @@
-import "./HeadShotPage.css";
+import "./PortraitesPage.css";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Head1 from "../../assets/img/headshot page/MSR08046.png";
@@ -8,13 +8,13 @@ import Head4 from "../../assets/img/headshot page/MSR04688.png";
 import Head5 from "../../assets/img/headshot page/IMG_6997.png";
 import Head6 from "../../assets/img/headshot page/IMG_6913.png";
 
-import Arrow from "../../assets/img/buttons/arrow_button.png";
+// import Arrow from "../../assets/img/buttons/arrow_button.png";
 import { Link } from "react-router-dom";
 
-const HeadShotPage = () => {
+const PortraitesPage = () => {
   return (
     <>
-      <section className="gt">
+      {/* <section className="gt">
         <Container className="text_field">
           <Row>
             <Col>
@@ -26,7 +26,7 @@ const HeadShotPage = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       <section className="text_img_para-sect">
         <Container>
@@ -40,7 +40,7 @@ const HeadShotPage = () => {
             </Col>
 
             <Col lg={4}>
-              <Link to="/portfolioone">
+              <Link to="/portraitesPageTwo">
                 <div className="portfolio-img pt_6">
                   <img src={Head1} alt="#" className="img-fluid" />
                 </div>
@@ -53,12 +53,21 @@ const HeadShotPage = () => {
                 orci mattis quis tempus. Magna pretium ac lacus felis at aliquet
                 interdum. Egestas fringilla ultrices cras metus aliquam dolor
                 enim sodales risus.
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <Link className="show_button" to="/portraitesPageTwo">
+                  Click here +
+                </Link>
               </p>
-              <Link to="/portfolioone">
+              {/* <Link to="/portraitesPageTwo">
                 <div className="headshot__arrow">
                   <img src={Arrow} alt="fa" />
                 </div>
-              </Link>
+              </Link> */}
             </Col>
           </Row>
         </Container>
@@ -75,11 +84,17 @@ const HeadShotPage = () => {
               <div className="head_div">
                 <h1>
                   ;and Snowhite <br /> with Jawline.
+                  <br />
+                  <br />
+                  <br />
+                  <Link className="show_button" to="/portraitesPageTwo">
+                    Click here +
+                  </Link>
                 </h1>
                 <Link to="/">
-                  <div className="third__arrow">
+                  {/* <div className="third__arrow">
                     <img src={Arrow} alt="fa" />
-                  </div>
+                  </div> */}
                 </Link>
               </div>
             </Col>
@@ -100,11 +115,17 @@ const HeadShotPage = () => {
               <h1>
                 ;and Snowhite <br /> with Jawline.
               </h1>
-              <Link to="/">
+              <br />
+              <br />
+              <br />
+              <Link className="show_button" to="/portraitesPageTwo">
+                Click here +
+              </Link>
+              {/* <Link to="/">
                 <div className="fourth__arrow">
                   <img src={Arrow} alt="fa" />
                 </div>
-              </Link>
+              </Link> */}
             </Col>
           </Row>
         </Container>
@@ -122,6 +143,12 @@ const HeadShotPage = () => {
                 orci mattis quis tempus. Magna pretium ac lacus felis at aliquet
                 interdum. Egestas fringilla ultrices cras metus aliquam dolor
                 enim sodales risus.
+                <br />
+                <br />
+                <br />
+                <Link className="show_button" to="/portraitesPageTwo">
+                  Click here +
+                </Link>
               </p>
             </Col>
 
@@ -148,11 +175,17 @@ const HeadShotPage = () => {
               <div className="portfolio-img pt_6">
                 <img src={Head6} alt="#" className="img-fluid" />
               </div>
-              <Link to="/">
+              <br />
+              <br />
+              <br />
+              <Link className="show_button" to="/portraitesPageTwo">
+                Click here +
+              </Link>
+              {/* <Link to="/">
                 <div className="fifth__arrow">
                   <img src={Arrow} alt="fa" />
                 </div>
-              </Link>
+              </Link> */}
             </Col>
           </Row>
         </Container>
@@ -161,4 +194,4 @@ const HeadShotPage = () => {
   );
 };
 
-export default HeadShotPage;
+export default PortraitesPage;

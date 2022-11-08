@@ -16,8 +16,8 @@
   transition: 0.8s;
 }
 
-.socialmedia{
-  color: #fff;
+.inner-nav-social .socialmedia{
+  color: #000;
 }
 
 
@@ -69,6 +69,10 @@
     left: 0;
   }
 
+  li.active {
+    background-color: red;
+  }
+
   .nav-menu li a {
     font-size: 2rem;
     color: #000;
@@ -87,6 +91,9 @@
     left: 38%;
     width: 476px;
   
+  }
+  .inner-nav-social{
+    display: none;
   }
 }
 
@@ -112,7 +119,7 @@ ul{
   border-radius: 50px;
   position: absolute;
   top: 90vh;
-  left: 38%;
+  left: 37%;
   width: 476px;
   padding-left: 0 !important;
   justify-content: space-between;
@@ -121,9 +128,10 @@ ul{
 
 
 
-.nav-menu li a:hover
+.nav-menu li a:hover,
+.nav-menu li .active
  {
-  color: #000;
+  color: #000 !important;
   background: #fff;
   padding: 10px;
   border-radius: 27px;

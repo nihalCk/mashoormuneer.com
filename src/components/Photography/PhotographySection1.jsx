@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
 import Portfolio1 from "../../assets/img/portfolio/img1.png";
-import Portfolio2 from "../../assets/img/portfolio/img2.png";
-import Portfolio3 from "../../assets/img/portfolio/img3.png";
+// import Portfolio2 from "../../assets/img/portfolio/img2.png";
+// import Portfolio3 from "../../assets/img/portfolio/img3.png";
 
 import './PhotographySection1.css'
 

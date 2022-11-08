@@ -3,9 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import Head1 from "../../assets/img/headshot page/MSR08046.png";
 
-import "./PortfolioOnepage.css";
+import "./PortraitesPage2.css";
 
-const PortfolioOnepage = () => {
+const PortraitesPage = () => {
   return (
     <>
       <section>
@@ -46,8 +46,9 @@ const PortfolioOnepage = () => {
           </Row>
         </Container>
       </section>
+      
     </>
   );
 };
 
-export default PortfolioOnepage;
+export default PortraitesPage;

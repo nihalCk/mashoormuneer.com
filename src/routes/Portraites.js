@@ -1,16 +1,16 @@
 import NavbarInner from "../components/NavbarInner/NavbarInner";
-import HeadShotPage from "../components/HeadShotPage/HeadShotPage";
+import PortraitesPage from "../components/PortraitesPage/PortraitesPage";
 
 import React from "react";
 
-const HeadShot = () => {
+const Portraites = () => {
   return (
     <>
       <NavbarInner />
-      <HeadShotPage />
+      <PortraitesPage />
    
     </>
   );
 };
 
-export default HeadShot;
+export default Portraites;

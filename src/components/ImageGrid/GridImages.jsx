@@ -3,7 +3,7 @@ import { Image } from "react-grid-gallery";
 import './ImageGrid.css';
 
 import home from "../../assets/img/homegrid/003.png"
-import home1 from "../../assets/img/homegrid/002.png"
+// import home1 from "../../assets/img/homegrid/002.png"
 import home2 from "../../assets/img/homegrid/004.png"
 import home3 from "../../assets/img/homegrid/005.png"
 import home4 from "../../assets/img/homegrid/006.png"
@@ -16,7 +16,7 @@ import home10 from "../../assets/img/homegrid/0012.png"
 import home11 from "../../assets/img/homegrid/003.png"
 import home12 from "../../assets/img/homegrid/0014.png"
 import home13 from "../../assets/img/homegrid/004.png"
-import home14 from "../../assets/img/homegrid/0016.png"
+// import home14 from "../../assets/img/homegrid/0016.png"
 import home15 from "../../assets/img/homegrid/0016.png"
 import home16 from "../../assets/img/homegrid/008.png"
 import home17 from "../../assets/img/homegrid/0016.png"

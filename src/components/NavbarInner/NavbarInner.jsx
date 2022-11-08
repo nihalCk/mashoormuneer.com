@@ -7,10 +7,33 @@ import { FiYoutube } from "react-icons/fi";
 import { SiGmail } from "react-icons/si";
 
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Container } from "react-bootstrap";
+
+const navbaritems = [  
+  {  
+    'id': 1,   
+    'link': '/photography',   
+    'name': 'Photography'  
+  },  
+  {   
+    'id': 2,   
+    'link': '/filims',   
+    'name': 'Films'  
+  },
+  {   
+    'id': 3,   
+    'link': '/about',   
+    'name': 'About'  
+  }, 
+  {   
+    'id': 4,   
+    'link': '/contact',   
+    'name': 'Contact'  
+  }, 
+];
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -34,7 +57,7 @@ const Navbar = () => {
           <img src={logo1} alt="#" />
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu "}>
-          <li >
+          {/* <li className="active">
             <Link to="/portfolio">Photography</Link>
           </li>
           <li>
@@ -45,7 +68,13 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/contact">Let's talk</Link>
-          </li>
+          </li> */}
+
+          {navbaritems.map((navitem) => (  
+             <li>
+          <NavLink className={(navData) => (navData.isActive ? 'active ' : '')}   to={navitem.link}>{navitem.name}</NavLink>
+        </li>
+            ))}
         </ul>
         <div className="humburger" onClick={handleClick}>
           {click ? (
@@ -54,7 +83,7 @@ const Navbar = () => {
             <FaBars size={20} style={{ color: "#000" }} />
           )}
         </div>
-        <div className="nav-social" style={{paddingTop:20 }}>
+        <div className="inner-nav-social" style={{paddingTop:20 }}>
             <BsInstagram size={15} style={{ cursor:"pointer"   }} className='socialmedia'/>
             <ImFacebook size={15} style={{  marginRight:10, marginLeft:10, cursor:"pointer" }} className='socialmedia'/>
             <FiYoutube size={20} style={{  marginRight:10, cursor:"pointer" }} className='socialmedia'/>

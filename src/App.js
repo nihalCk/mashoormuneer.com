@@ -3,10 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./routes/About";
-import Portfolio from "./routes/Portfolio";
+import Photography from "./routes/Photography";
 import Contact from "./routes/Contact";
-import HeadShot from "./routes/HeadShot";
-import PortfolioOne from "./routes/PortfolioOne";
+import Portraites from "./routes/Portraites";
+import PortraitesPageTwo from "./routes/PortraitesPageTwo";
+import Filims from "./routes/Filims";
 
 
 
@@ -16,10 +17,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/photography" element={<Photography />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/headshot" element={<HeadShot />} />
-        <Route path="/portfolioone" element={<PortfolioOne />} />
+        <Route path="/portraites" element={<Portraites />} />
+        <Route path="/portraitesPageTwo" element={<PortraitesPageTwo />} />
+        <Route path="/filims" element={<Filims />} />
       </Routes>
     </>
   );

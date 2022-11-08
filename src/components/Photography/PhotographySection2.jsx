@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import './PhotographySection2.css';
 
 import { Link } from "react-router-dom";
-import Arrow from "../../assets/img/buttons/arrow_button.png";
+// import Arrow from "../../assets/img/buttons/arrow_button.png";
 
 
 class PhotographySection2 extends Component {
@@ -26,14 +26,14 @@ class PhotographySection2 extends Component {
               </div>
             </Col>
             <Col lg={6}>
-              <Link to="/headshot" className="pointer">
+              <Link to={this.props.path} className="pointer">
                 <div className="portfolio-img port-2  pt_6 ">
                   <img src={this.props.img} alt="#" className="img-fluid" />
                 </div>
 
-                <div className="portfolio__arrow">
+                {/* <div className="portfolio__arrow">
                   <img src={Arrow} alt="fa" />
-                </div>
+                </div> */}
               </Link>
             </Col>
           </Row>

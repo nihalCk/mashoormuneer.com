@@ -72,6 +72,9 @@
   .nav-menu.active {
     left: 0;
   }
+  .hero-nav-social{
+    display: none;
+  }
 
   .nav-menu li a {
     font-size: 2rem;
@@ -89,7 +92,7 @@
     border-radius: 0;
     position: absolute;
     top: 878px;
-    left: 38%;
+    left: 37%;
     width: 476px;
   
   }
@@ -141,7 +144,8 @@ ul{
 
 
 
-.nav-menu li a:hover {
+.nav-menu li a:hover,
+.nav-menu li .active {
   color: #000;
   background: #fff;
   width: 20px;
@@ -151,3 +155,10 @@ ul{
  
 }
 
+li.active a{
+  background-color: red;
+}
+
+.hero-nav-social .socialmedia{
+  color: #fff;
+}
