@@ -133,7 +133,7 @@ ul{
 }
 
 ul{
-  background: black;
+  background: rgba(0,0,0,.3);
   border-radius: 50px;
   position: absolute;
   top: 90vh;
@@ -146,8 +146,8 @@ ul{
 
 .nav-menu li a:hover,
 .nav-menu li .active {
-  color: #000;
-  background: #fff;
+  color: #fff !important;
+  background: #000;
   width: 20px;
   padding: 10px;
   border-radius: 27px;
