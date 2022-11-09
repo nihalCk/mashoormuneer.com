@@ -8,6 +8,8 @@ const Filims = () => {
     <>
         <NavbarInner />
         <HomeVideo />
+        <HomeVideo />
+        <HomeVideo />
     </>
   )
 }
