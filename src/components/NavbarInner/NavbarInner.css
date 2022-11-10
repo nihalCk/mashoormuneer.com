@@ -74,8 +74,8 @@
   }
 
   .nav-menu li a {
-    font-size: 2rem;
-    color: #000;
+    font-size: 1.4rem !important;
+    color: #000 !important;
   }
   .humburger {
     display: flex;

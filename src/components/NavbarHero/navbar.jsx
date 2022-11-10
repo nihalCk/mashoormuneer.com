@@ -12,28 +12,28 @@ import { FiYoutube } from "react-icons/fi";
 import { SiGmail } from "react-icons/si";
 
 
-const navbaritems = [  
-  {  
-    'id': 1,   
-    'link': '/photography',   
-    'name': 'Photography'  
-  },  
-  {   
-    'id': 2,   
-    'link': '/filims',   
-    'name': 'Films'  
-  },
-  {   
-    'id': 3,   
-    'link': '/about',   
-    'name': 'About'  
-  }, 
-  {   
-    'id': 4,   
-    'link': '/contact',   
-    'name': 'Contact'  
-  }, 
-];
+  const navbaritems = [  
+    {  
+      'id': 1,   
+      'link': '/photography',   
+      'name': 'Photography'  
+    },  
+    {   
+      'id': 2,   
+      'link': '/filims',   
+      'name': 'Films'  
+    },
+    {   
+      'id': 3,   
+      'link': '/about',   
+      'name': 'About'  
+    }, 
+    {   
+      'id': 4,   
+      'link': '/contact',   
+      'name': 'Contact'  
+    }, 
+  ];
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
