@@ -75,11 +75,15 @@ const PortraitesPage = () => {
       <section className="text_img-third">
         <Container className="third-container">
           <Row>
+          
             <Col lg={6}>
+            <Link  to="/portraitesPageThree">
               <div className="portfolio-img pt_6">
                 <img src={Head2} alt="#" className="img-fluid" />
               </div>
+              </Link>
             </Col>
+            
             <Col lg={6}>
               <div className="head_div">
                 <h1>
@@ -87,7 +91,7 @@ const PortraitesPage = () => {
                   <br />
                   <br />
                   <br />
-                  <Link className="show_button" to="/portraitesPageTwo">
+                  <Link className="show_button" to="/portraitesPageThree">
                     Click here +
                   </Link>
                 </h1>

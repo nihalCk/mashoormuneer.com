@@ -7,6 +7,7 @@ import Photography from "./routes/Photography";
 import Contact from "./routes/Contact";
 import Portraites from "./routes/Portraites";
 import PortraitesPageTwo from "./routes/PortraitesPageTwo";
+import PortraitesPageThree from "./routes/PortraitesPageThree";
 import Filims from "./routes/Filims";
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/portraites" element={<Portraites />} />
         <Route path="/portraitesPageTwo" element={<PortraitesPageTwo />} />
+        <Route path="/portraitesPageThree" element={<PortraitesPageThree />} />
         <Route path="/filims" element={<Filims />} />
       </Routes>
     </>
