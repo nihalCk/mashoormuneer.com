@@ -8,6 +8,7 @@ import Contact from "./routes/Contact";
 import Portraites from "./routes/Portraites";
 import PortraitesPageTwo from "./routes/PortraitesPageTwo";
 import PortraitesPageThree from "./routes/PortraitesPageThree";
+import PortraitesPageFour from "./routes/PortraitesPageFour";
 import Filims from "./routes/Filims";
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/portraites" element={<Portraites />} />
         <Route path="/portraitesPageTwo" element={<PortraitesPageTwo />} />
         <Route path="/portraitesPageThree" element={<PortraitesPageThree />} />
+        <Route path="/portraitesPageFour" element={<PortraitesPageFour />} />
         <Route path="/filims" element={<Filims />} />
       </Routes>
     </>

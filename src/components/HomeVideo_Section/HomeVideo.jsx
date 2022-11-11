@@ -1,9 +1,10 @@
-import React from "react";
-import "./HomeVideo.css"
+import React, { Component } from "react";
+import "./HomeVideo.css";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-const HomeVideo = () => {
+class HomeVideo extends Component {
+  render() {
   return (
     <section className="HomeVideo">
       <Container>
@@ -11,7 +12,7 @@ const HomeVideo = () => {
           <Col lg={12} className="">
             <div className="ratio ratio-16x9">
               <iframe
-                src="https://www.youtube.com/embed/pdY94RWx9Pg"
+                src={this.props.video}
                 title="YouTube video"
                 allowfullscreen
               ></iframe>
@@ -22,5 +23,5 @@ const HomeVideo = () => {
     </section>
   );
 };
-
+}
 export default HomeVideo;

@@ -109,7 +109,7 @@ const PortraitesPage = () => {
         <Container className="position-relative">
           <Row>
             <Col lg={6}>
-              <Link to="/">
+              <Link to="/portraitesPageFour">
                 <div className="portfolio-img pt_6">
                   <img src={Head3} alt="#" className="img-fluid" />
                 </div>
@@ -122,7 +122,7 @@ const PortraitesPage = () => {
               <br />
               <br />
               <br />
-              <Link className="show_button" to="/portraitesPageTwo">
+              <Link className="show_button" to="/portraitesPageFour">
                 Click here +
               </Link>
               {/* <Link to="/">
