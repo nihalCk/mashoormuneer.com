@@ -33,7 +33,7 @@ const Photography = () => {
       />
       <PhotographySection2
         img= {img2}
-        path="/Contact"
+        path="/travels"
         sub="Show more +"
         heading="Travels"
         text="Tempus, aliquam etiam ut adipiscing nec nibh. Nisi, enim arcu

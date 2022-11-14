@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 // import { Link } from "react-router-dom";
 
 import "./HomeBanner.css"
@@ -21,6 +21,8 @@ import slider5 from "../../assets/img/home-slider/Untitled-1-02.png";
 
 
 const HomeBanner = () => {
+
+  
   return (
     <>
     <div className="slider position-relative ">
@@ -69,6 +71,8 @@ const HomeBanner = () => {
         Photographer, Content Creator{" "}
       </p>
     </div>
+    
+
   </div>
   </>
   )

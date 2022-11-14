@@ -9,7 +9,10 @@ import Portraites from "./routes/Portraites";
 import PortraitesPageTwo from "./routes/PortraitesPageTwo";
 import PortraitesPageThree from "./routes/PortraitesPageThree";
 import PortraitesPageFour from "./routes/PortraitesPageFour";
+import PortraitesPageFive from "./routes/PortraitesPageFive";
+import PortraitesPageSix from "./routes/PortraitesPageSix";
 import Filims from "./routes/Filims";
+import Travels from "./routes/Travels";
 
 
 
@@ -25,7 +28,11 @@ function App() {
         <Route path="/portraitesPageTwo" element={<PortraitesPageTwo />} />
         <Route path="/portraitesPageThree" element={<PortraitesPageThree />} />
         <Route path="/portraitesPageFour" element={<PortraitesPageFour />} />
+        <Route path="/portraitesPageFive" element={<PortraitesPageFive />} />
+        <Route path="/portraitesPageSix" element={<PortraitesPageSix />} />
         <Route path="/filims" element={<Filims />} />
+
+        <Route path="/travels" element={<Travels />} />
       </Routes>
     </>
   );

@@ -11,6 +11,14 @@ import Head6 from "../../assets/img/headshot page/IMG_6913.png";
 // import Arrow from "../../assets/img/buttons/arrow_button.png";
 import { Link } from "react-router-dom";
 
+const myfunction = () => {
+  window.scroll({
+    top: 0,
+    left: 100,
+    behavior: "smooth",
+  });
+};
+
 const PortraitesPage = () => {
   return (
     <>
@@ -40,7 +48,7 @@ const PortraitesPage = () => {
             </Col>
 
             <Col lg={4}>
-              <Link to="/portraitesPageTwo">
+              <Link to="/portraitesPageTwo" onClick={myfunction}>
                 <div className="portfolio-img pt_6">
                   <img src={Head1} alt="#" className="img-fluid" />
                 </div>
@@ -59,7 +67,11 @@ const PortraitesPage = () => {
                 <br />
                 <br />
                 <br />
-                <Link className="show_button" to="/portraitesPageTwo">
+                <Link
+                  className="show_button"
+                  to="/portraitesPageTwo"
+                  onClick={myfunction}
+                >
                   Click here +
                 </Link>
               </p>
@@ -75,15 +87,14 @@ const PortraitesPage = () => {
       <section className="text_img-third">
         <Container className="third-container">
           <Row>
-          
             <Col lg={6}>
-            <Link  to="/portraitesPageThree">
-              <div className="portfolio-img pt_6">
-                <img src={Head2} alt="#" className="img-fluid" />
-              </div>
+              <Link to="/portraitesPageThree" onClick={myfunction}>
+                <div className="portfolio-img pt_6">
+                  <img src={Head2} alt="#" className="img-fluid" />
+                </div>
               </Link>
             </Col>
-            
+
             <Col lg={6}>
               <div className="head_div">
                 <h1>
@@ -95,7 +106,7 @@ const PortraitesPage = () => {
                     Click here +
                   </Link>
                 </h1>
-                <Link to="/">
+                <Link to="/" onClick={myfunction}>
                   {/* <div className="third__arrow">
                     <img src={Arrow} alt="fa" />
                   </div> */}
@@ -109,7 +120,7 @@ const PortraitesPage = () => {
         <Container className="position-relative">
           <Row>
             <Col lg={6}>
-              <Link to="/portraitesPageFour">
+              <Link to="/portraitesPageFour" onClick={myfunction}>
                 <div className="portfolio-img pt_6">
                   <img src={Head3} alt="#" className="img-fluid" />
                 </div>
@@ -122,7 +133,11 @@ const PortraitesPage = () => {
               <br />
               <br />
               <br />
-              <Link className="show_button" to="/portraitesPageFour">
+              <Link
+                className="show_button"
+                to="/portraitesPageFour"
+                onClick={myfunction}
+              >
                 Click here +
               </Link>
               {/* <Link to="/">
@@ -150,16 +165,26 @@ const PortraitesPage = () => {
                 <br />
                 <br />
                 <br />
-                <Link className="show_button" to="/portraitesPageTwo">
+                <Link
+                  className="show_button"
+                  to="/portraitesPageTwo"
+                  onClick={myfunction}
+                >
                   Click here +
                 </Link>
               </p>
             </Col>
 
             <Col lg={6}>
-              <div className="portfolio-img pt_6">
-                <img src={Head4} alt="#" className="img-fluid" />
-              </div>
+              <Link
+                className="show_button"
+                to="/portraitesPageFive"
+                onClick={myfunction}
+              >
+                <div className="portfolio-img pt_6">
+                  <img src={Head4} alt="#" className="img-fluid" />
+                </div>
+              </Link>
             </Col>
           </Row>
         </Container>
@@ -182,7 +207,11 @@ const PortraitesPage = () => {
               <br />
               <br />
               <br />
-              <Link className="show_button" to="/portraitesPageTwo">
+              <Link
+                className="show_button"
+                to="/portraitesPageSix"
+                onClick={myfunction}
+              >
                 Click here +
               </Link>
               {/* <Link to="/">

@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import Head3 from "../../assets/img/headshot page/MSR04286.png";
-import { Link } from "react-router-dom";
+
 
 
 const PortraitesPage4 = () => {
@@ -11,11 +11,11 @@ const PortraitesPage4 = () => {
       <Container className="position-relative">
         <Row>
           <Col lg={6}>
-            <Link to="/">
+            
               <div className="portfolio-img pt_6">
                 <img src={Head3} alt="#" className="img-fluid" />
               </div>
-            </Link>
+            
           </Col>
           <Col lg={6} className="para-div">
             <h1>

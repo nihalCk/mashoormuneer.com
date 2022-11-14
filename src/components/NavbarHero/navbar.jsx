@@ -1,4 +1,4 @@
-import  "./navbar.css";
+import "./navbar.css";
 import logo1 from "../../assets/img/Mashoor Muneer.png";
 
 import React, { useState } from "react";
@@ -11,29 +11,28 @@ import { ImFacebook } from "react-icons/im";
 import { FiYoutube } from "react-icons/fi";
 import { SiGmail } from "react-icons/si";
 
-
-  const navbaritems = [  
-    {  
-      'id': 1,   
-      'link': '/photography',   
-      'name': 'Photography'  
-    },  
-    {   
-      'id': 2,   
-      'link': '/filims',   
-      'name': 'Films'  
-    },
-    {   
-      'id': 3,   
-      'link': '/about',   
-      'name': 'About'  
-    }, 
-    {   
-      'id': 4,   
-      'link': '/contact',   
-      'name': 'Contact'  
-    }, 
-  ];
+const navbaritems = [
+  {
+    id: 1,
+    link: "/photography",
+    name: "Photography",
+  },
+  {
+    id: 2,
+    link: "/filims",
+    name: "Films",
+  },
+  {
+    id: 3,
+    link: "/about",
+    name: "About",
+  },
+  {
+    id: 4,
+    link: "/contact",
+    name: "Contact",
+  },
+];
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -48,6 +47,14 @@ const Navbar = () => {
   };
 
   window.addEventListener("scroll", changeColor);
+
+  const myfunction = () => {
+    window.scroll({
+      top: 0,
+      left: 100,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <Container fluid className={color ? "header header-bg" : "header"}>
@@ -68,29 +75,50 @@ const Navbar = () => {
           <li className={click ? "nav-link active" : "nav-link "}>
             <Link to="/contact">Let's talk</Link>
           </li> */}
-          {navbaritems.map((navitem) => (  
-             <li>
-          <NavLink className={(navData) => (navData.isActive ? `active ` : '')}   to={navitem.link}>{navitem.name}</NavLink>
-        </li>
-            ))}
+          {navbaritems.map((navitem) => (
+            <li>
+              <NavLink
+                className={(navData) => (navData.isActive ? `active ` : "")}
+                onClick={myfunction}
+                to={navitem.link}
+              >
+                {navitem.name}
+              </NavLink>
+            </li>
+          ))}
         </ul>
-        
+
         <div className="humburger" onClick={handleClick}>
           {click ? (
-            <FaTimes size={20} className='times' />
+            <FaTimes size={20} className="times" />
           ) : (
-            <FaBars size={20} className='bars' />
+            <FaBars size={20} className="bars" />
           )}
         </div>
-        <div className="hero-nav-social" style={{paddingTop:20 }}>
-            <BsInstagram size={15} style={{ cursor:"pointer"   }} className='socialmedia'/>
-            <ImFacebook size={15} style={{  marginRight:10, marginLeft:10, cursor:"pointer" }} className='socialmedia'/>
-            <FiYoutube size={20} style={{  marginRight:10, cursor:"pointer" }} className='socialmedia'/>
-            <SiGmail size={15} style={{  cursor:"pointer" }} className='socialmedia'/>
+        <div className="hero-nav-social" style={{ paddingTop: 20 }}>
+          <BsInstagram
+            size={15}
+            style={{ cursor: "pointer" }}
+            className="socialmedia"
+          />
+          <ImFacebook
+            size={15}
+            style={{ marginRight: 10, marginLeft: 10, cursor: "pointer" }}
+            className="socialmedia"
+          />
+          <FiYoutube
+            size={20}
+            style={{ marginRight: 10, cursor: "pointer" }}
+            className="socialmedia"
+          />
+          <SiGmail
+            size={15}
+            style={{ cursor: "pointer" }}
+            className="socialmedia"
+          />
         </div>
       </Container>
     </Container>
-    
   );
 };
 

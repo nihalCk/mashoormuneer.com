@@ -25,9 +25,9 @@ const PortraitesPage3 = () => {
                 <br />
                 <br />
                 <br />
-                <Link className="show_button" to="/portraitesPageTwo">
+                {/* <Link className="show_button" to="/portraitesPageTwo">
                   Click here +
-                </Link>
+                </Link> */}
               </h1>
               <Link to="/">
                 {/* <div className="third__arrow">
