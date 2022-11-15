@@ -63,3 +63,9 @@ p.lettersp span.letter_1 {
 h1.letters {
   overflow-y: hidden;
 }
+
+
+.clent-main{
+  display: flex;
+  justify-content: space-between;
+}

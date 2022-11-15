@@ -6,6 +6,10 @@ import { images, CustomImage } from "./GridImages";
 import {  Container } from "react-bootstrap";
 
 
+import { motion } from 'framer-motion';
+
+import { transition1 } from '../../transitions';
+
 
 
 const ImageGrid = () => {
@@ -22,8 +26,15 @@ const ImageGrid = () => {
   const handleMovePrev = () => setIndex(prevIndex);
   const handleMoveNext = () => setIndex(nextIndex);
 
-
+  
   return (
+    <motion.section
+      initial={{ opacity: 0, y: '100%' }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: '100%' }}
+      transition={transition1}
+      className='section section-extra'
+     >
     <Container>
       <Gallery
         images={images}
@@ -48,6 +59,7 @@ const ImageGrid = () => {
         />
       )}
     </Container>
+    </motion.section>
   )
 }
 

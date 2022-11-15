@@ -15,7 +15,6 @@ import Filims from "./routes/Filims";
 import Travels from "./routes/Travels";
 
 
-
 function App() {
   return (
     <>
@@ -34,6 +33,7 @@ function App() {
 
         <Route path="/travels" element={<Travels />} />
       </Routes>
+      
     </>
   );
 }

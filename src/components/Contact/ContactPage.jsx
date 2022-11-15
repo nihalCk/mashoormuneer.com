@@ -4,11 +4,21 @@ import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Contact1 from "../../assets/img/Contact/Marià Casals 1.png";
 
+import { transition1 } from '../../transitions';
+import { motion } from 'framer-motion';
+
+
 
 class ContactPage extends Component {
   render() {
     return (
-      <section className="section-extra">
+      <motion.section
+      initial={{ opacity: 0, y: '100%' }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: '100%' }}
+      transition={transition1}
+      className='section section-extra'
+     > 
         <Container>
           <Row>
             <Col lg={7}>
@@ -24,7 +34,7 @@ class ContactPage extends Component {
             </Col>
           </Row>
         </Container>
-      </section>
+        </motion.section>
     );
   }
 }
