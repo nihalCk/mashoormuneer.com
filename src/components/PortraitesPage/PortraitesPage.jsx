@@ -193,17 +193,29 @@ const PortraitesPage = () => {
         <Container className="position-relative">
           <Row>
             <Col lg={6}>
+            <Link
+                className="show_button"
+                to="/portraitesPageSix"
+                onClick={myfunction}
+              >
               <div className="portfolio-img pt_6">
                 <img src={Head5} alt="#" className="img-fluid" />
               </div>
+              </Link>
             </Col>
             <Col lg={6}>
               <h1>
                 ;and Snowhite <br /> with Jawline.
               </h1>
+              <Link
+                className="show_button"
+                to="/portraitesPageSix"
+                onClick={myfunction}
+              >
               <div className="portfolio-img pt_6">
                 <img src={Head6} alt="#" className="img-fluid" />
               </div>
+              </Link>
               <br />
               <br />
               <br />

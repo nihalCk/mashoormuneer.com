@@ -8,9 +8,17 @@ import Clients2 from "../../assets/img/Clients/ALJVD+CLient+Logos4.png";
 import Clients3 from "../../assets/img/Clients/ALJVD+CLient+Logos5.png";
 import Clients4 from "../../assets/img/Clients/ALJVD+CLient+Logos19.png";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import { Autoplay, FreeMode, Pagination } from "swiper";
+
 const ClientSection = () => {
   return (
-    <section className="pt-100">
+    <section className="pt-100 ">
       <Container>
         <Row>
           <Col lg={12}>
@@ -19,29 +27,57 @@ const ClientSection = () => {
                 <span className="lettersspan">
                   <span className="letter_1" style={{ color: "#212529" }}>
                     Clients
-                    
                   </span>
                 </span>
-                <br/>
-                <br/>
+                <br />
+                <br />
               </h1>
             </div>
           </Col>
           <Col>
-            <div className="clent-main">
-              <div className="client-logo">
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={30}
+              freeMode={true}
+              // pagination={{
+              //   clickable: true,
+              // }}
+              autoplay={{
+                delay: 1000,
+                disableOnInteraction: false,
+              }}
+              loop={true}
+              modules={[Autoplay, FreeMode, Pagination]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
                 <img src={Clients1} alt="#" className="img-fluid" />
-              </div>
-              <div className="client-logo">
+              </SwiperSlide>
+              <SwiperSlide>
                 <img src={Clients2} alt="#" className="img-fluid" />
-              </div>
-              <div className="client-logo">
+              </SwiperSlide>
+              <SwiperSlide>
                 <img src={Clients3} alt="#" className="img-fluid" />
-              </div>
-              <div className="client-logo">
+              </SwiperSlide>
+              <SwiperSlide>
                 <img src={Clients4} alt="#" className="img-fluid" />
-              </div>
-            </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Clients1} alt="#" className="img-fluid" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Clients2} alt="#" className="img-fluid" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Clients3} alt="#" className="img-fluid" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Clients4} alt="#" className="img-fluid" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Clients1} alt="#" className="img-fluid" />
+              </SwiperSlide>
+            </Swiper>
           </Col>
         </Row>
       </Container>

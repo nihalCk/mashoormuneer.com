@@ -77,6 +77,10 @@ section {
     bottom: -50px;
     right: 22px;
   }
+  section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .headshot-fourth-section h1 {
