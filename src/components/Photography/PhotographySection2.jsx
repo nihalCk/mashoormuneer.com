@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
+import { motion } from 'framer-motion';
+
+import { transition1 } from "../../transitions";
 import "./PhotographySection2.css";
 
 import { Link } from "react-router-dom";
@@ -37,7 +40,8 @@ class PhotographySection2 extends Component {
             <Col lg={6}>
               <Link to={this.props.path} className="pointer" onClick={myfunction}>
                 <div className="portfolio-img port-2  pt_6 ">
-                  <img src={this.props.img} alt="#" className="img-fluid" />
+                  <motion.img whileHover={{ scale: 1.1 }}
+                transition1={transition1} src={this.props.img} alt="#" className="img-fluid" />
                 </div>
 
                 {/* <div className="portfolio__arrow">

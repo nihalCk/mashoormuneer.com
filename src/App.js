@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation} from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./routes/About";
 import Photography from "./routes/Photography";
@@ -14,11 +14,15 @@ import PortraitesPageSix from "./routes/PortraitesPageSix";
 import Filims from "./routes/Filims";
 import Travels from "./routes/Travels";
 
+import { AnimatePresence } from 'framer-motion';
+
 
 function App() {
+  const location = useLocation();
   return (
     <>
-      <Routes>
+    <AnimatePresence initial={true} mode='wait'>
+      <Routes key={location.pathname} location={location}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/photography" element={<Photography />} />
@@ -33,6 +37,7 @@ function App() {
 
         <Route path="/travels" element={<Travels />} />
       </Routes>
+      </AnimatePresence>
       
     </>
   );

@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
+import { motion } from 'framer-motion';
+// import transition
+import { transition1 } from "../../transitions";
+
 import Portfolio1 from "../../assets/img/portfolio/img1.png";
 // import Portfolio2 from "../../assets/img/portfolio/img2.png";
 // import Portfolio3 from "../../assets/img/portfolio/img3.png";
@@ -14,13 +18,21 @@ class PhotographySection1 extends Component {
         <Container>
           <Row>
             <Col md={4}>
-              <div className="portfolio-content pt_6">
+            <motion.div
+                initial={{ opacity: -5, x: "-80%" }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: "-80%" }}
+                transition={transition1} className="portfolio-content pt_6">
                 <h1>{this.props.heading}</h1>
                 <p>{this.props.text}</p>
-              </div>
+                </motion.div>
             </Col>
             <Col md={6} className="ml_6">
-              <div className="port__img-sect">
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0 }}
+              transition={transition1}>
                 <Row>
                   <Col md={6}>
                     <div className="portfolio-img pt_6">
@@ -43,7 +55,7 @@ class PhotographySection1 extends Component {
                     </div>
                   </Col>
                 </Row>
-              </div>
+                </motion.div>
             </Col>
           </Row>
         </Container>
