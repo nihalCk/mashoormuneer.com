@@ -3,11 +3,18 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import Head3 from "../../assets/img/headshot page/MSR04286.png";
 
+import { motion } from "framer-motion";
+import { transition1 } from "../../transitions";
+
 
 
 const PortraitesPage4 = () => {
   return (
-    <section className="headshot-fourth-section">
+    <motion.section
+              initial={{ opacity: -5, x: "-80%" }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: "-80%" }}
+              transition={transition1} className="headshot-fourth-section">
       <Container className="position-relative">
         <Row>
           <Col lg={6}>
@@ -35,7 +42,7 @@ const PortraitesPage4 = () => {
           </Col>
         </Row>
       </Container>
-    </section>
+    </motion.section>
   );
 };
 

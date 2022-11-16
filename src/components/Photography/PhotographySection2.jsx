@@ -24,7 +24,11 @@ class PhotographySection2 extends Component {
         <Container>
           <Row>
             <Col lg={6}>
-              <div class="portfolio-content portfolio-section1">
+            <motion.div
+              initial={{ opacity: -5, x: "-80%" }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: "-80%" }}
+              transition={transition1} class="portfolio-content portfolio-section1">
                 <h1>{this.props.heading}</h1>
                 <p>
                   {this.props.text}
@@ -35,14 +39,20 @@ class PhotographySection2 extends Component {
                     {this.props.sub} 
                   </Link>
                 </p>
-              </div>
+                </motion.div>
             </Col>
             <Col lg={6}>
               <Link to={this.props.path} className="pointer" onClick={myfunction}>
-                <div className="portfolio-img port-2  pt_6 ">
-                  <motion.img whileHover={{ scale: 1.1 }}
-                transition1={transition1} src={this.props.img} alt="#" className="img-fluid" />
-                </div>
+              <motion.div
+                  initial={{ opacity: -10 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={transition1} className="portfolio-img port-2  pt_6 ">
+                  <img 
+                  
+                  src={this.props.img} alt="#" 
+                  className="img-fluid" />
+                </motion.div>
 
                 {/* <div className="portfolio__arrow">
                   <img src={Arrow} alt="fa" />

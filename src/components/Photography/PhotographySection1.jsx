@@ -22,7 +22,8 @@ class PhotographySection1 extends Component {
                 initial={{ opacity: -5, x: "-80%" }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: "-80%" }}
-                transition={transition1} className="portfolio-content pt_6">
+                transition={transition1} 
+                className="portfolio-content pt_6">
                 <h1>{this.props.heading}</h1>
                 <p>{this.props.text}</p>
                 </motion.div>

@@ -106,3 +106,8 @@ p.lettersbutton .letter_4 {
 .about-content h1.letters {
   overflow-y: hidden;
 }
+
+.motion-div{
+  display: flex;
+  column-gap: 1rem;
+}

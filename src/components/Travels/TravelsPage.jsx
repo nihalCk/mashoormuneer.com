@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 
 import { Col, Container, Row } from "react-bootstrap";
 
+import { motion } from "framer-motion";
+import { transition1 } from "../../transitions";
+
 const myfunction = () => {
   window.scroll({
     top: 0,
@@ -15,7 +18,15 @@ const myfunction = () => {
 class TravelsPage extends Component {
   render() {
     return (
-      <section className="Port_section_bg">
+      <motion.section
+        initial={{ opacity: -5, x: "-80%" }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: "-80%" }}
+        transition={transition1}
+        className="Port_section_bg">
+      >
+        {" "}
+        
         <Container>
           <Row>
             <Col lg={6}>
@@ -35,7 +46,11 @@ class TravelsPage extends Component {
             </Col>
             <Col lg={6}>
               <div class="travels-content portfolio-section1">
-                <h1>{this.props.heading}<br/>{this.props.heading2}</h1>
+                <h1>
+                  {this.props.heading}
+                  <br />
+                  {this.props.heading2}
+                </h1>
                 <p>
                   {this.props.text}
                   <br />
@@ -53,7 +68,7 @@ class TravelsPage extends Component {
             </Col>
           </Row>
         </Container>
-      </section>
+      </motion.section>
     );
   }
 }

@@ -3,9 +3,17 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Head4 from "../../assets/img/headshot page/MSR04688.png";
 
+
+import { motion } from "framer-motion";
+import { transition1 } from "../../transitions";
+
 const PortraitesPage6 = () => {
   return (
-    <section>
+    <motion.section
+              initial={{ opacity: -5, x: "-80%" }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: "-80%" }}
+              transition={transition1} >
       <Container>
         <Row>
           <Col lg={6}>
@@ -38,7 +46,7 @@ const PortraitesPage6 = () => {
           </Col>
         </Row>
       </Container>
-    </section>
+      </motion.section>
   );
 };
 
