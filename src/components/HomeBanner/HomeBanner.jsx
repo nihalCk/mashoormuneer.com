@@ -13,10 +13,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 
-import slider2 from "../../assets/img/home-slider/IMG_0908 1-compressed.jpg";
-import slider3 from "../../assets/img/home-slider/IMG_3990 1-min.png";
-import slider4 from "../../assets/img/home-slider/MSR03658 1-min.png";
-import slider5 from "../../assets/img/home-slider/Untitled-1-02-min.png";
+import slider2 from "../../assets/img/home-slider/IMG_3990 1-min-compressed.jpg";
+import slider3 from "../../assets/img/home-slider/IMG_0908 1-compressed.jpg";
+import slider4 from "../../assets/img/home-slider/MSR04725-compressed.jpg";
+import slider5 from "../../assets/img/home-slider/MSR03658 1-min-compressed.jpg";
 
 
 
@@ -35,7 +35,7 @@ const HomeBanner = () => {
       //   clickable: true,
       // }}
       autoplay={{
-        delay: 1000,
+        delay: 2500,
         disableOnInteraction: false,
       }}
       modules={[Autoplay, EffectFade, Navigation, Pagination]}
