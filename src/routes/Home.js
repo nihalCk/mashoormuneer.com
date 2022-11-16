@@ -1,7 +1,7 @@
 import React from "react";
 
 import Navbar from "../components/NavbarHero/navbar";
-import ImageGrid from "../components/ImageGrid/ImageGrid";
+// import ImageGrid from "../components/ImageGrid/ImageGrid";
 import HomeBanner from "../components/HomeBanner/HomeBanner";
 import HomeButton from "../components/HomeButton/HomeButton";
 import HomeVideo from "../components/HomeVideo_Section/HomeVideo";
@@ -18,7 +18,7 @@ const Home = () => {
         heading="Photography"
         path="/Photography"
       />
-      <ImageGrid />
+      {/* <ImageGrid /> */}
       <HomeVideo video={"https://www.youtube.com/embed/pdY94RWx9Pg"} />
       <HomeButton heading="Show more +" path="/filims" />
       <ClientSection />
