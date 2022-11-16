@@ -3,7 +3,6 @@ import { Col, Container, Row } from "react-bootstrap";
 
 
 import { motion } from "framer-motion";
-
 import { transition1 } from "../../transitions";
 
 

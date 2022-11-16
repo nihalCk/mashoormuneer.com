@@ -1,12 +1,19 @@
 import React, { Component } from "react";
 import "./HomeVideo.css";
 
+import { motion } from "framer-motion";
+import { transition1 } from "../../transitions";
+
 import { Container, Row, Col } from "react-bootstrap";
 
 class HomeVideo extends Component {
   render() {
   return (
-    <section className="HomeVideo">
+    <motion.section
+              initial={{ opacity: -5, y: "80%" }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: "80%" }}
+              transition={transition1} className="HomeVideo">
       <Container>
         <Row>
           <Col lg={12} className="">
@@ -20,7 +27,7 @@ class HomeVideo extends Component {
           </Col>
         </Row>
       </Container>
-    </section>
+    </motion.section>
   );
 };
 }
