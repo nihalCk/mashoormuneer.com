@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mashoormuneer.com/static/css/main.55c0a7da.css",
-    "main.js": "/mashoormuneer.com/static/js/main.b9ffe169.js",
+    "main.css": "/mashoormuneer.com/static/css/main.d212676a.css",
+    "main.js": "/mashoormuneer.com/static/js/main.32d6cac6.js",
     "static/media/MSR08348 1.png": "/mashoormuneer.com/static/media/MSR08348 1.14c5e8be6a7bce5ce8da.png",
     "static/media/MSR04632.png": "/mashoormuneer.com/static/media/MSR04632.1e5fc1cf09e9e28a4852.png",
     "static/media/IMG_6929.png": "/mashoormuneer.com/static/media/IMG_6929.e47bf6febbb2a71253a2.png",
@@ -25,7 +25,6 @@
     "static/media/EE40AD40-4257-4A0E-8065-15A99603F80A.png": "/mashoormuneer.com/static/media/EE40AD40-4257-4A0E-8065-15A99603F80A.75fc91f15ab1e71845ff.png",
     "static/media/MSR02188 2.png": "/mashoormuneer.com/static/media/MSR02188 2.0a5526a06e6ae06e31e9.png",
     "static/media/0CEA4F31-B672-47F4-8DB4-9521229160E3.png": "/mashoormuneer.com/static/media/0CEA4F31-B672-47F4-8DB4-9521229160E3.96ed3ef25c8ecea963b7.png",
-    "static/media/img2.png": "/mashoormuneer.com/static/media/img2.6492e9177157a4b60ea6.png",
     "static/media/img3.png": "/mashoormuneer.com/static/media/img3.f510d1cd11d1d6d240d4.png",
     "static/media/MSR04156.png": "/mashoormuneer.com/static/media/MSR04156.41949ba8cb0338d95b96.png",
     "static/media/MSR06830.png": "/mashoormuneer.com/static/media/MSR06830.184ef2b80a37c188d240.png",
@@ -33,7 +32,6 @@
     "static/media/IMG_6913.png": "/mashoormuneer.com/static/media/IMG_6913.9d94f2fcf18b7dcfe632.png",
     "static/media/MSR04286.png": "/mashoormuneer.com/static/media/MSR04286.3f6bbc5e98fa8375216e.png",
     "static/media/IMG_6997.png": "/mashoormuneer.com/static/media/IMG_6997.4dc577be3dbc550dd458.png",
-    "static/media/Myles Loftin photography 1.png": "/mashoormuneer.com/static/media/Myles Loftin photography 1.7538d35533bf28ad73ec.png",
     "static/media/home-section-3-img2.png": "/mashoormuneer.com/static/media/home-section-3-img2.c825563996eae3a4d306.png",
     "static/media/home-section-3-img4.png": "/mashoormuneer.com/static/media/home-section-3-img4.8d735efbd6c69f7e5a1d.png",
     "static/media/MSR08046.png": "/mashoormuneer.com/static/media/MSR08046.5bf2452ed9a0e1640e49.png",
@@ -45,18 +43,20 @@
     "static/media/Raleway-VariableFont_wght.ttf": "/mashoormuneer.com/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
     "static/media/Raleway-Italic-VariableFont_wght.ttf": "/mashoormuneer.com/static/media/Raleway-Italic-VariableFont_wght.292a60624abe8149803a.ttf",
     "static/media/img1.png": "/mashoormuneer.com/static/media/img1.c85082e73fc6a7c6d9b4.png",
+    "static/media/img2-compressed.jpg": "/mashoormuneer.com/static/media/img2-compressed.20b1b69041aa14a634e6.jpg",
     "static/media/MSR03658 1-min-compressed.jpg": "/mashoormuneer.com/static/media/MSR03658 1-min-compressed.c71516d3cf5a5f836775.jpg",
+    "static/media/Myles Loftin photography 1-compressed.jpg": "/mashoormuneer.com/static/media/Myles Loftin photography 1-compressed.3b7f60ecc13d25a6c8c1.jpg",
     "static/media/FanwoodText-Regular.ttf": "/mashoormuneer.com/static/media/FanwoodText-Regular.81fb0916bffb98af80d4.ttf",
     "static/media/MSR04725-compressed.jpg": "/mashoormuneer.com/static/media/MSR04725-compressed.87fdd728ca3708137510.jpg",
     "static/media/FanwoodText-Italic.ttf": "/mashoormuneer.com/static/media/FanwoodText-Italic.7e9cdfb58a63c86c98d6.ttf",
     "static/media/ALJVD+CLient+Logos.png": "/mashoormuneer.com/static/media/ALJVD+CLient+Logos.3707b82da1ef77b473f9.png",
     "static/media/ALJVD+CLient+Logos4.png": "/mashoormuneer.com/static/media/ALJVD+CLient+Logos4.48bdfd794ccffd699ba5.png",
     "index.html": "/mashoormuneer.com/index.html",
-    "main.55c0a7da.css.map": "/mashoormuneer.com/static/css/main.55c0a7da.css.map",
-    "main.b9ffe169.js.map": "/mashoormuneer.com/static/js/main.b9ffe169.js.map"
+    "main.d212676a.css.map": "/mashoormuneer.com/static/css/main.d212676a.css.map",
+    "main.32d6cac6.js.map": "/mashoormuneer.com/static/js/main.32d6cac6.js.map"
   },
   "entrypoints": [
-    "static/css/main.55c0a7da.css",
-    "static/js/main.b9ffe169.js"
+    "static/css/main.d212676a.css",
+    "static/js/main.32d6cac6.js"
   ]
 }
