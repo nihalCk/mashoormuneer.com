@@ -4,7 +4,7 @@ import React, { Component } from "react";
 
 import { Col, Container, Row } from "react-bootstrap";
 
-import About1 from "../../assets/img/about/Myles Loftin photography 1.png";
+import About1 from "../../assets/img/about/Myles Loftin photography 1-compressed.jpg";
 
 import { motion } from "framer-motion";
 

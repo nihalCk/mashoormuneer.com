@@ -3,7 +3,7 @@ import NavbarInner from "../components/NavbarInner/NavbarInner";
 import PhotographySection1 from "../components/Photography/PhotographySection1";
 import PhotographySection2 from "../components/Photography/PhotographySection2";
 import img1 from "../assets/img/portfolio/img1.png";
-import img2 from "../assets/img/portfolio/img2.png";
+import img2 from "../assets/img/portfolio/img2-compressed.jpg";
 import img3 from "../assets/img/portfolio/img3.png";
 
 const Photography = () => {

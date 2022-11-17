@@ -111,3 +111,7 @@ p.lettersbutton .letter_4 {
   display: flex;
   column-gap: 1rem;
 }
+
+.portfolio-one-content{
+  padding-top: 26px;
+}

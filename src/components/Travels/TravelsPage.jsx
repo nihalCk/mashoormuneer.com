@@ -18,13 +18,7 @@ const myfunction = () => {
 class TravelsPage extends Component {
   render() {
     return (
-      <motion.section
-        initial={{ opacity: -5, x: "-80%" }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: "-80%" }}
-        transition={transition1}
-        className="Port_section_bg">
-      >
+      <section className="Port_section_bg">
         {" "}
         
         <Container>
@@ -35,9 +29,14 @@ class TravelsPage extends Component {
                 className="pointer"
                 onClick={myfunction}
               >
-                <div className="portfolio-img port-2  pt_6 ">
+                <motion.div
+                initial={{ opacity: -5, x: "-80%" }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: "-80%" }}
+                transition={transition1}
+                className="portfolio-img port-2  pt_6 ">
                   <img src={this.props.img} alt="#" className="img-fluid" />
-                </div>
+                </motion.div>
 
                 {/* <div className="portfolio__arrow">
                         <img src={Arrow} alt="fa" />
@@ -45,7 +44,12 @@ class TravelsPage extends Component {
               </Link>
             </Col>
             <Col lg={6}>
-              <div class="travels-content portfolio-section1">
+            <motion.div
+                initial={{ opacity: -5, x: "-80%" }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: "-80%" }}
+                transition={transition1} 
+                class="travels-content portfolio-section1">
                 <h1>
                   {this.props.heading}
                   <br />
@@ -64,11 +68,11 @@ class TravelsPage extends Component {
                     {this.props.sub}
                   </Link>
                 </p>
-              </div>
+                </motion.div>
             </Col>
           </Row>
         </Container>
-      </motion.section>
+      </section>
     );
   }
 }
