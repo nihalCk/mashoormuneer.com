@@ -43,15 +43,15 @@ const Footer = () => {
           <div className="social">
             <FaFacebook
               size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+              style={{ color: "#000", marginRight: "1rem" }}
             />
             <FaLinkedin
               size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+              style={{ color: "#000", marginRight: "1rem" }}
             />
             <FaInstagram
               size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+              style={{ color: "#000", marginRight: "1rem" }}
             />
           </div>
         </div>

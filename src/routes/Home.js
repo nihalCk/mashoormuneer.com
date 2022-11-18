@@ -5,7 +5,7 @@ import Navbar from "../components/NavbarHero/navbar";
 import HomeBanner from "../components/HomeBanner/HomeBanner";
 import HomeButton from "../components/HomeButton/HomeButton";
 import HomeVideo from "../components/HomeVideo_Section/HomeVideo";
-import ClientSection from "../components/ClientSection/ClientSection";
+import ClientSection from "../components/ClientSection/ClientSection"; 
 
 const Home = () => {
  

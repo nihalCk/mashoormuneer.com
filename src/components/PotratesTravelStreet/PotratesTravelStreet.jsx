@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { motion } from 'framer-motion';
 
 import { transition1 } from "../../transitions";
-import "./PhotographySection2.css";
+import "./PotratesTravelStreet.css";
 
 import { Link } from "react-router-dom";
 // import Arrow from "../../assets/img/buttons/arrow_button.png";
@@ -16,7 +16,7 @@ const myfunction = () => {
   });
 };
 
-class PhotographySection2 extends Component {
+class PotratesTravelStreet extends Component {
   render() {
     
     return (
@@ -66,4 +66,4 @@ class PhotographySection2 extends Component {
   }
 }
 
-export default PhotographySection2;
+export default PotratesTravelStreet;

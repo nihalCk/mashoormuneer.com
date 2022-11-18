@@ -34,7 +34,6 @@ function App() {
         <Route path="/portraitesPageFive" element={<PortraitesPageFive />} />
         <Route path="/portraitesPageSix" element={<PortraitesPageSix />} />
         <Route path="/filims" element={<Filims />} />
-
         <Route path="/travels" element={<Travels />} />
       </Routes>
       </AnimatePresence>

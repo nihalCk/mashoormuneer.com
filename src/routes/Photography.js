@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarInner from "../components/NavbarInner/NavbarInner";
 import PhotographySection1 from "../components/Photography/PhotographySection1";
-import PhotographySection2 from "../components/Photography/PhotographySection2";
+import PotratesTravelStreet from "../components/PotratesTravelStreet/PotratesTravelStreet";
 import img1 from "../assets/img/portfolio/img1.png";
 import img2 from "../assets/img/portfolio/img2-compressed.jpg";
 import img3 from "../assets/img/portfolio/img3.png";
@@ -19,7 +19,7 @@ const Photography = () => {
                 vitae commodo mauris risus. Fames mattis blandit rhoncus
                 suspendisse eu nisl."
       />
-      <PhotographySection2
+      <PotratesTravelStreet
         img= {img1}
         path="/Portraites"
         sub="Show more +"
@@ -31,7 +31,7 @@ const Photography = () => {
               vitae commodo mauris risus. Fames mattis blandit rhoncus
               suspendisse eu nisl."
       />
-      <PhotographySection2
+      <PotratesTravelStreet
         img= {img2}
         path="/travels"
         sub="Show more +"
@@ -43,7 +43,7 @@ const Photography = () => {
               vitae commodo mauris risus. Fames mattis blandit rhoncus
               suspendisse eu nisl."
       />
-      <PhotographySection2
+      <PotratesTravelStreet
         img= {img3}
         path="/Contact"
         sub="Show more +"
