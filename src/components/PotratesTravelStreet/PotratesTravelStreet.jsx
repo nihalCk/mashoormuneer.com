@@ -18,7 +18,6 @@ const myfunction = () => {
 
 class PotratesTravelStreet extends Component {
   render() {
-    
     return (
       <section className="Port_section_bg">
         <Container>

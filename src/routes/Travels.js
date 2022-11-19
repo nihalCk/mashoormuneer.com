@@ -13,7 +13,7 @@ const Travels = () => {
       <NavbarInner />
       <TravelsPage
         img={img1}
-        path="/Portraites"
+        path="/travelspage1"
         sub="Show more +"
         heading="Colours of"
         heading2="Dubai"
@@ -27,7 +27,7 @@ const Travels = () => {
 
       <TravelsPage
         img={img2}
-        path="/Portraites"
+        path="/travelspage2"
         sub="Show more +"
         heading="Egestas sit "
         heading2="non nam dui"
