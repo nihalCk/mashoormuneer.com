@@ -33,13 +33,14 @@ const ImageGrid = () => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: '100%' }}
       transition={transition1}
-      className='section section-extra'
+      className='section section-extra pb-0'
      >
     <Container>
       <Gallery
         images={images}
         onClick={handleClick}
         enableImageSelection={false}
+        className='img-class'
         
       />
       {!!currentImage && (
@@ -56,6 +57,7 @@ const ImageGrid = () => {
           onMovePrevRequest={handleMovePrev}
           onMoveNextRequest={handleMoveNext}
           enableZoom={false}
+          className='img-class'
         />
       )}
     </Container>
