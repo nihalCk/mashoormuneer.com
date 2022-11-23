@@ -41,7 +41,7 @@ const Travels = () => {
 
       <TravelsPage
         img={img3}
-        path="/Portraites"
+        path="/travelspage3"
         sub="Show more +"
         heading="Egestas sit "
         heading2="non nam dui"
@@ -55,7 +55,7 @@ const Travels = () => {
 
       <TravelsPage
         img={img4}
-        path="/Portraites"
+        path="/travelspage4"
         sub="Show more +"
         heading="Egestas sit "
         heading2="non nam dui"

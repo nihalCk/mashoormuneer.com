@@ -15,6 +15,9 @@ import Filims from "./routes/Filims";
 import Travels from "./routes/Travels";
 import TravelsPage1 from './routes/TravelsPage1';
 import TravelsPage2 from './routes/TravelsPage2';
+import TravelsPage3 from './routes/TravelsPage3';
+import TravelsPage4 from './routes/TravelsPage4';
+import Street from './routes/Street';
 
 import { AnimatePresence } from 'framer-motion';
 
@@ -39,6 +42,9 @@ function App() {
         <Route path="/travels" element={<Travels />} />
         <Route path="/travelspage1" element={<TravelsPage1 />} />
         <Route path="/travelspage2" element={<TravelsPage2 />} />
+        <Route path="/travelspage3" element={<TravelsPage3 />} />
+        <Route path="/travelspage4" element={<TravelsPage4 />} />
+        <Route path="/street" element={<Street />} />
       </Routes>
       </AnimatePresence>
       

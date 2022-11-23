@@ -45,7 +45,7 @@ const Photography = () => {
       />
       <PotratesTravelStreet
         img= {img3}
-        path="/Contact"
+        path="/street"
         sub="Show more +"
         heading="Street"
         text="Tempus, aliquam etiam ut adipiscing nec nibh. Nisi, enim arcu

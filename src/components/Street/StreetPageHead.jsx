@@ -6,22 +6,24 @@ import { motion } from "framer-motion";
 import { transition1 } from "../../transitions";
 
 
-import './PortraitesPage2.css'
+import './StreetPage.css'
 
-class PortraitesPage2sect2 extends Component {
+class StreetPageHead extends Component {
   render() {
   return (
-    <section className="pb-5" style={this.props.st}>
+    <section className="pb-5" style={this.props.st} >
         <Container>
           <Row>
-            <Col >
+            <Col className="" >
             <motion.div
                   initial={{ opacity: -10 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  transition={transition1} className="port-two-img pt_6 about__img">
-                <img src={this.props.img} alt="#" className=" img-fluid" />
+                  transition={transition1} className="port-two-img pt_6 streethead about__img head4">
+                <img src={this.props.img} alt="#" className="streethead img-fluid " />
+                <h2 className="head_title">{this.props.title} <br /><br /><br />{this.props.author}</h2>
               </motion.div>
+              
             </Col>
           </Row>
         </Container>
@@ -30,4 +32,4 @@ class PortraitesPage2sect2 extends Component {
 }
 }
 
-export default PortraitesPage2sect2
+export default StreetPageHead;
