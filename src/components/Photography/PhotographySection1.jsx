@@ -30,10 +30,10 @@ class PhotographySection1 extends Component {
             </Col>
             <Col md={6} className="ml_6">
             <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              exit={{ scale: 0 }}
-              transition={transition1}>
+              initial={{ opacity: -5, x: "-80%" }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: "-80%" }}
+              transition={transition1} >
                 <Row>
                   <Col md={6}>
                     <div className="portfolio-img pt_6">
