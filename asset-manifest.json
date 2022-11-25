@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mashoormuneer.com/static/css/main.b7ac84ca.css",
-    "main.js": "/mashoormuneer.com/static/js/main.cd63a564.js",
+    "main.js": "/mashoormuneer.com/static/js/main.e91974a0.js",
     "static/media/008.png": "/mashoormuneer.com/static/media/008.6c4d0bf91f0f1c43f18a.png",
     "static/media/0016.png": "/mashoormuneer.com/static/media/0016.963e7d021825e7740db6.png",
     "static/media/0015.png": "/mashoormuneer.com/static/media/0015.b65430553e49157bb4bb.png",
@@ -90,10 +90,10 @@
     "static/media/ALJVD+CLient+Logos4.png": "/mashoormuneer.com/static/media/ALJVD+CLient+Logos4.48bdfd794ccffd699ba5.png",
     "index.html": "/mashoormuneer.com/index.html",
     "main.b7ac84ca.css.map": "/mashoormuneer.com/static/css/main.b7ac84ca.css.map",
-    "main.cd63a564.js.map": "/mashoormuneer.com/static/js/main.cd63a564.js.map"
+    "main.e91974a0.js.map": "/mashoormuneer.com/static/js/main.e91974a0.js.map"
   },
   "entrypoints": [
     "static/css/main.b7ac84ca.css",
-    "static/js/main.cd63a564.js"
+    "static/js/main.e91974a0.js"
   ]
 }
