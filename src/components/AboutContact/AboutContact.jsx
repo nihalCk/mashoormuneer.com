@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const about = (props) => {
   return (
-    <section className="section section-extra">
+    <section className="section section-extra hg_100">
       <Container>
         <Row>
           <Col lg={7}>

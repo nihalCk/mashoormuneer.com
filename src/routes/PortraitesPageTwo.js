@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarInner from "../components/NavbarInner/NavbarInner";
+
 import PortraitesPage2 from "../components/PortraitesPage2/PortraitesPage2";
 import PortraitesPage2sect2 from "../components/PortraitesPage2/PortraitesPage2sect2";
 import PortraitesPage2sect3 from "../components/PortraitesPage2/PortraitesPage2sect3"
@@ -14,7 +14,7 @@ import img8 from "../assets/img/portfolio-one/MSR08348 1.png";
 const PortraitesPageTwo = () => {
   return (
     <>
-      <NavbarInner />
+      
       <PortraitesPage2 />
       <PortraitesPage2sect2 img={img1} />
       <PortraitesPage2sect2 img={img2} />

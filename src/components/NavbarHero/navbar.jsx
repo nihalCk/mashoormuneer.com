@@ -14,7 +14,7 @@ import { SiGmail } from "react-icons/si";
 const navbaritems = [
   {
     id: 1,
-    link: "/photography",
+    link: "/abouts",
     name: "Photography",
   },
   {
@@ -60,21 +60,9 @@ const Navbar = () => {
     <Container fluid className={color ? "header header-bg" : "header"}>
       <Container className="header-second navbar-hero">
         <Link to="/" className={color ? "logo_show" : "logo-1"}>
-          <img src={logo1} alt="#" />
+          Mashoor Muneer
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu "}>
-          {/* <li >
-            <Link to="/portfolio">Photography</Link>
-          </li>
-          <li >
-            <Link to="/portfolio">Films</Link>
-          </li>
-          <li className={click ? "nav-link active" : "nav-link "}>
-            <Link to="/about">About</Link>
-          </li>
-          <li className={click ? "nav-link active" : "nav-link "}>
-            <Link to="/contact">Let's talk</Link>
-          </li> */}
           {navbaritems.map((navitem) => (
             <li>
               <NavLink

@@ -61,22 +61,9 @@ const Navbar = () => {
     <Container fluid className={color ? "header header-bg" : "header"}>
       <Container className="header-second navbar-inner">
         <Link to="/" className="logo_show" onClick={myfunction}>
-          <img src={logo1} alt="#" />
+         Mashoor Muneer
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu "}>
-          {/* <li className="active">
-            <Link to="/portfolio">Photography</Link>
-          </li>
-          <li>
-            <Link to="/portfolio">Films</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/contact">Let's talk</Link>
-          </li> */}
-
           {navbaritems.map((navitem) => (
             <li>
               <NavLink
@@ -96,7 +83,7 @@ const Navbar = () => {
             <FaBars size={20} style={{ color: "#000" }} />
           )}
         </div>
-        <div className="inner-nav-social" style={{ paddingTop: 20 }}>
+        <div className="inner-nav-social" style={{ paddingTop: 10 }}>
           <BsInstagram
             size={15}
             style={{ cursor: "pointer" }}

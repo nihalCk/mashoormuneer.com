@@ -1,12 +1,11 @@
 import React from "react";
-import NavbarInner from "../components/NavbarInner/NavbarInner";
 import TravelsPage from "../components/Travels/TravelsPage";
 import TravelsData from "./TravelsData";
 
 const Travels = () => {
   return (
     <>
-      <NavbarInner />
+      
       {TravelsData.map((props) => (
         <TravelsPage
           img={props.img}

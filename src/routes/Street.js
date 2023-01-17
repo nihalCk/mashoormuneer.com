@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarInner from "../components/NavbarInner/NavbarInner";
+
 import StreetPage from "../components/Street/StreetPage";
 import ImageOnlySection from "../components/ImageOnlySection/ImageOnlySection";
 import StreetPageHead from "../components/Street/StreetPageHead";
@@ -10,7 +10,7 @@ import img1 from "../assets/img/Street/000.png";
 const Street = () => {
   return (
     <>
-      <NavbarInner />
+
       <StreetPage
         heading="Eyes: Out of the street"
         st={{ paddingBottom: "0" }}

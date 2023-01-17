@@ -39,6 +39,7 @@
 }
 
 /* .header-bg .nav-menu a, */
+
 .header-bg .socialmedia,
 .header-bg .bars {
   color: #000;
@@ -90,7 +91,7 @@
   ul{
     background: black;
     border-radius: 0;
-    position: absolute;
+    
     top: 878px;
     left: 37%;
     width: 476px;
@@ -133,9 +134,9 @@ ul{
 }
 
 ul{
-  background: rgba(0,0,0,.3);
+  /* background: rgba(0,0,0,.3); */
   border-radius: 50px;
-  position: absolute;
+  /* position: absolute; */
   top: 90vh;
   left: 38%;
   width: 476px;

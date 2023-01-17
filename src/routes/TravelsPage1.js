@@ -2,7 +2,7 @@ import React from "react";
 
 import ImageOnlySection from "../components/ImageOnlySection/ImageOnlySection";
 
-import NavbarInner from "../components/NavbarInner/NavbarInner";
+
 import img1 from "../assets/img/travel-page-1/001.jpg";
 import img2 from "../assets/img/travel-page-1/002.jpg";
 import img3 from "../assets/img/travel-page-1/003.jpg";
@@ -19,7 +19,7 @@ import img12 from "../assets/img/travel-page-1/0012.jpg";
 const TravelsPage1 = () => {
   return (
     <>
-      <NavbarInner />
+      
       <ImageOnlySection img1={img1} img2={img2} />
       <ImageOnlySection img1={img3} img2={img4} />
       <ImageOnlySection img1={img5} img2={img6} />

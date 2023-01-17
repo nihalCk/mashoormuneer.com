@@ -9,6 +9,7 @@ import Portfolio1 from "../../assets/img/portfolio/img1.png";
 // import Portfolio2 from "../../assets/img/portfolio/img2.png";
 // import Portfolio3 from "../../assets/img/portfolio/img3.png";
 
+
 import './PhotographySection1.css'
 
 class PhotographySection1 extends Component {

@@ -20,7 +20,8 @@ h1.letters span.letter_1 {
   animation-duration: 0.8s;
   opacity: 0;
   animation-fill-mode: forwards;
-  font-family: "FanwoodText-Regular", sans-serif;
+  font-family: 'Raleway-VariableFont_wght';
+  font-weight: 600;
 }
 h1.letters span.letter_2 {
   position: relative;
@@ -30,6 +31,8 @@ h1.letters span.letter_2 {
   animation-duration: 0.8s;
   opacity: 0;
   animation-fill-mode: forwards;
+  font-family: 'Raleway-VariableFont_wght';
+  font-weight: 500;
 }
 p.lettersp span.letter_1 {
   position: relative;

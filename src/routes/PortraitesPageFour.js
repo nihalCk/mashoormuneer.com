@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NavbarInner from "../components/NavbarInner/NavbarInner";
+
 import PortraitesPage4 from "../components/PortraitesPage4/PortraitesPage4";
 import PortraitesPage2sect2 from "../components/PortraitesPage2/PortraitesPage2sect2";
 
@@ -19,7 +19,7 @@ import img8 from "../assets/img/portfolio-three/MSR04356.png";
 const PortraitesPageFour = () => {
   return (
     <>
-    <NavbarInner />
+   
     <PortraitesPage4 />
     <PortraitesPage2sect2 img={img1} />
     <PortraitesPage2sect2 img={img2} />

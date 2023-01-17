@@ -40,17 +40,17 @@ class PotratesTravelStreet extends Component {
                 </p>
                 </motion.div>
             </Col>
-            <Col lg={6}>
+            <Col lg={6} className=''>
               <Link to={this.props.path} className="pointer" onClick={myfunction}>
               <motion.div
                   initial={{ opacity: -10 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  transition={transition1} className="portfolio-img port-2  pt_6 ">
+                  transition={transition1} className="portfolio-img  port-2  pt_6 ">
                   <img 
                   
                   src={this.props.img} alt="#" 
-                  className="img-fluid" />
+                  className="img-fluid " />
                 </motion.div>
 
                 {/* <div className="portfolio__arrow">

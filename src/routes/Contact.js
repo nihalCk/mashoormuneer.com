@@ -1,7 +1,8 @@
 import React from "react";
-import NavbarInner from "../components/NavbarInner/NavbarInner";
 import AboutContact from "../components/AboutContact/AboutContact";
 import Contact1 from "../assets/img/Contact/Marià Casals 1.png";
+
+
 
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
@@ -9,7 +10,7 @@ import { transition1 } from "../transitions";
 const Contact = () => {
   return (
     <>
-      <NavbarInner />
+     
       <motion.div
         initial={{ opacity: 0, y: "80%" }}
         animate={{ opacity: 1, y: 0 }}
