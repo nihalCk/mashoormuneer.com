@@ -29,15 +29,15 @@ class PotratesTravelStreet extends Component {
               exit={{ opacity: 0, x: "-80%" }}
               transition={transition1} class="portfolio-content portfolio-section1">
                 <h1>{this.props.heading}</h1>
-                <p>
+                {/* <p>
                   {this.props.text}
                   <br />
                   <br />
-                  <br />
+                  <br /> */}
                   <Link className="show_button" to={this.props.path} onClick={myfunction}>
                     {this.props.sub} 
                   </Link>
-                </p>
+                {/* </p> */}
                 </motion.div>
             </Col>
             <Col lg={6} className=''>
