@@ -69,7 +69,7 @@ const Navbar = () => {
               <NavLink
                 className={(navData) => (navData.isActive ? "active " : "")}
                 to={navitem.link}
-                onClick={myfunction}
+                onClick={handleClick}
               >
                 {navitem.name}
               </NavLink>
