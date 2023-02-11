@@ -17,8 +17,7 @@ const Home = () => {
     <>
    
       <HomeBanner />
-      {/* <HomePhotography /> */}
-      
+      <HomePhotography />
       <HomeVideo video={"https://www.youtube.com/embed/pdY94RWx9Pg"} />
       <HomeButton heading="Show more +" path="/filims" />
       <ClientSection />
