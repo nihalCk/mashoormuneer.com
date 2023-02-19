@@ -15,21 +15,26 @@ import { Container } from "react-bootstrap";
 const navbaritems = [
   {
     id: 1,
+    link: "/",
+    name: "Home",
+  },
+  {
+    id: 2,
     link: "/photography",
     name: "Photography",
   },
   {
-    id: 2,
+    id: 3,
     link: "/filims",
     name: "Films",
   },
   {
-    id: 3,
+    id: 4,
     link: "/about",
     name: "About",
   },
   {
-    id: 4,
+    id: 5,
     link: "/contact",
     name: "Contact",
   },
@@ -58,11 +63,11 @@ const Navbar = () => {
     });
   };
   return (
-    <Container fluid className={color ? "header header-bg" : "header"}>
+    <Container fluid className=" header-bg header">
       <Container className="header-second navbar-inner">
-        <Link to="/" className="logo_show" onClick={myfunction}>
+        {/* <Link to="/" className="logo_show" onClick={myfunction}>
          Mashoor Muneer
-        </Link>
+        </Link> */}
         <ul className={click ? "nav-menu active" : "nav-menu "}>
           {navbaritems.map((navitem) => (
             <li>

@@ -8,8 +8,6 @@ import ClientSection from "../components/ClientSection/ClientSection";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import HomePhotography from "../components/HomePhography/HomePhotography";
-import HomeAbout from "../components/HomeAboutSection/HomeAbout";
-
 AOS.init(); 
 
 const Home = () => {
