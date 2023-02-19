@@ -1,24 +1,28 @@
 import React from 'react'
-import HomeVideo from "../components/HomeVideo_Section/HomeVideo";
+import FilimVideos from '../components/FilimVideos/FilimVideo';
 
+import FilimsData from './FilimsData';
 
 
 
 const Filims = () => {
   return (
     <>
-   
-        <HomeVideo video={"https://www.youtube.com/embed/pdY94RWx9Pg"} />
-        <HomeVideo video={"https://www.youtube.com/embed/KmnJuET_SZ8"} />
-        <HomeVideo video={"https://www.youtube.com/embed/6F_27lpYjQk"} />
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        
-        
+      {FilimsData.map((props) => (
+        <FilimVideos
+          video1={props.video1} video2={props.video2} video3={props.video3}/>
+      ))}
+      {/* <FilimVideos video1={FilimVideoOne} video2={FilimVideoOne} video3={FilimVideoOne} />
+        <FilimVideos video1={FilimVideoOne} video2={FilimVideoOne} video3={FilimVideoOne} />
+        <FilimVideos video1={FilimVideoOne} video2={FilimVideoOne} video3={FilimVideoOne} /> */}
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+
 
     </>
   )
