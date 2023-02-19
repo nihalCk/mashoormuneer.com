@@ -1,3 +1,23 @@
 .HomeVideo {
     padding-bottom: 0 !important;
+    padding: 0;
+}
+.home_video video{
+    width: 100%;
+}
+.dum{
+    position: relative;
+    padding: 0;
+}
+.filimtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filimtext::after{
+    content: "Filims";
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    z-index: 9999;
 }

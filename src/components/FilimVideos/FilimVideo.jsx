@@ -10,6 +10,7 @@ class HomeVideo extends Component {
   render() {
     return (
       <motion.section
+        style={{paddingBottom: "0px", paddingTop: "100px"}}
         initial={{ opacity: -5, y: "80%" }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: "80%" }}

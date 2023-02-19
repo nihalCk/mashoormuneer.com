@@ -7,7 +7,7 @@ import "./HomeAbout.css";
 function HomeAbout() {
     return (
         <>
-            <section className='main_section'>
+            <section className='main_section' style={{paddingTop: "0px",paddingBottom: "0px"}}>
                 <Container fluid>
                     <Row>
                         <Col>

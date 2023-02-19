@@ -5,30 +5,36 @@ import { motion } from "framer-motion";
 import { transition1 } from "../../transitions";
 
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "@mui/material";
 
 class HomeVideo extends Component {
   render() {
-  return (
-    <motion.section
-              initial={{ opacity: -5, y: "80%" }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: "80%" }}
-              transition={transition1} className="HomeVideo">
-      <Container>
+    return (
+      <motion.section
+        initial={{ opacity: -5, y: "80%" }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: "80%" }}
+        transition={transition1} className="HomeVideo">
+
         <Row>
-          <Col lg={12} className="">
-            <div className="ratio ratio-16x9">
-              <iframe
-                src={this.props.video}
-                title="YouTube video"
-                allowfullscreen
-              ></iframe>
+          <Col lg={12} className="dum">
+            <div className="home_video filimtext">
+              <Link to={this.props.path}>
+                <video
+                  src={this.props.video}
+                  title="YouTube video"
+                  autoPlay
+                  muted
+                  allowfullscreen
+                ></video>
+              </Link>
             </div>
           </Col>
+
         </Row>
-      </Container>
-    </motion.section>
-  );
-};
+
+      </motion.section>
+    );
+  };
 }
 export default HomeVideo;
