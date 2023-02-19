@@ -1,2 +1,0 @@
-# mashoormuneer.com
-portfolio project
