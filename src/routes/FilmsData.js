@@ -1,4 +1,4 @@
-const FilimsData = [
+const FilmsData = [
     {
         id: 1,
         video1: require("../assets/img/production ID_4124024.mp4"),
@@ -23,4 +23,4 @@ const FilimsData = [
 ];
 
 
-export default FilimsData;
+export default FilmsData;
