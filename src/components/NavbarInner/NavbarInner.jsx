@@ -1,13 +1,13 @@
 import "../NavbarInner/NavbarInner.css";
 
-import logo1 from "../../assets/img/Mashoor Muneer.png";
+// import logo1 from "../../assets/img/Mashoor Muneer.png";
 import { BsInstagram } from "react-icons/bs";
 import { ImFacebook } from "react-icons/im";
 import { FiYoutube } from "react-icons/fi";
 import { SiGmail } from "react-icons/si";
 
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Container } from "react-bootstrap";
@@ -44,7 +44,7 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
-  const [color, setColor] = useState(false);
+  const [ setColor] = useState(false);
   const changeColor = () => {
     if (window.scrollY >= 1) {
       setColor(true);
@@ -55,13 +55,13 @@ const Navbar = () => {
 
   window.addEventListener("scroll", changeColor);
 
-  const myfunction = () => {
-    window.scroll({
-      top: 0,
-      left: 100,
-      behavior: "smooth",
-    });
-  };
+  // const myfunction = () => {
+  //   window.scroll({
+  //     top: 0,
+  //     left: 100,
+  //     behavior: "smooth",
+  //   });
+  // };
   return (
     <Container fluid className=" header-bg header">
       <Container className="header-second navbar-inner">

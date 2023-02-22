@@ -1,31 +1,19 @@
 import React from 'react'
-import FilimVideos from '../components/FilimVideos/FilimVideo';
+import FilmVideos from '../components/FilmVideos/FilmVideos';
 
-import FilimsData from './FilimsData';
+import FilmsData from './FilmsData';
 
 
 
-const Filims = () => {
+const Films = () => {
   return (
     <>
-      {FilimsData.map((props) => (
-        <FilimVideos
+      {FilmsData.map((props) => (
+        <FilmVideos
           video1={props.video1} video2={props.video2} video3={props.video3}/>
       ))}
-      {/* <FilimVideos video1={FilimVideoOne} video2={FilimVideoOne} video3={FilimVideoOne} />
-        <FilimVideos video1={FilimVideoOne} video2={FilimVideoOne} video3={FilimVideoOne} />
-        <FilimVideos video1={FilimVideoOne} video2={FilimVideoOne} video3={FilimVideoOne} /> */}
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-
-
     </>
   )
 }
 
-export default Filims
+export default Films

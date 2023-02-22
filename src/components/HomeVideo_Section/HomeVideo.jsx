@@ -4,7 +4,7 @@ import "./HomeVideo.css";
 import { motion } from "framer-motion";
 import { transition1 } from "../../transitions";
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { Link } from "@mui/material";
 
 class HomeVideo extends Component {
@@ -20,11 +20,11 @@ class HomeVideo extends Component {
           <Col lg={12} className="dum">
             <div className="home_video filimtext">
               <Link to={this.props.path}>
-                <video
-                  src={this.props.video}
+              <video
+                  src={this.props.video1}
                   title="YouTube video"
-                  autoPlay
                   muted
+                  autoPlay
                   allowfullscreen
                 ></video>
               </Link>

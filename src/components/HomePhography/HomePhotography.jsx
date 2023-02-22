@@ -3,8 +3,8 @@ import "./HomePhotography.css";
 
 import { Row, Col, Container } from "react-bootstrap";
 
-import Portfolio1 from "../../assets/img/portfolio/home-section-3-img1.png";
-import HomeButton from "../HomeButton/HomeButton";
+// import Portfolio1 from "../../assets/img/portfolio/home-section-3-img1.png";
+// import HomeButton from "../HomeButton/HomeButton";
 import { Link } from "react-router-dom";
 
 const HomePhotography = () => {
