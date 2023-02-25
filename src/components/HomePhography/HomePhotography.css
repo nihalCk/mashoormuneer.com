@@ -5,12 +5,13 @@
   align-items: center;
 }
 
-.main__image::before {
+
+.main__image::after {
   content: "";
-  display: block;
+  /* display: block;
   position: fixed;
   left: 0;
-  top: 0;
+  top: 0; */
   width: 100%;
   height: 100%;
   z-index: -10;
@@ -19,11 +20,16 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 
+/* 
 
-
-  /* background-image: url(../../assets/img/portfolio/home-section-3-img1.png);
+  background-image: url(../../assets/img/portfolio/home-section-3-img1.png);
   height: 70vh;
   background-repeat: no-repeat;
   background-attachment: fixed;

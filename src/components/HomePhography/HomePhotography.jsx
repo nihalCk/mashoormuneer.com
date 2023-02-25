@@ -9,13 +9,13 @@ import { Link } from "react-router-dom";
 
 const HomePhotography = () => {
   return (
-    <> 
-      <section style={{paddingTop: "0px",paddingBottom: "0px"}}>
-        <Container fluid style={{padding: "0px"}}>
-          <Row style={{padding: "0px"}}>
-            <Col style={{padding: "0px"}}>
+    <>
+      <section className="tintu" style={{ paddingTop: "0px", paddingBottom: "0px" }}>
+        <Container fluid style={{ padding: "0px" }}>
+          <Row style={{ padding: "0px" }}>
+            <Col style={{ padding: "0px" }}>
               <div className="main__image">
-                <h1><Link to="/photography">Photography</Link></h1>
+                {/* <h1><Link to="/photography">Photography</Link></h1> */}
               </div>
             </Col>
           </Row>
