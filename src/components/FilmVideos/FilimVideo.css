@@ -1,3 +1,23 @@
 .main_sect video    {
     width: 100%;
 }
+.films_data_main{
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+.Film_main{
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .films_data_main{
+        padding-top: 60px;
+        padding-bottom: 60px;
+     }
+    .Film_main{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+}

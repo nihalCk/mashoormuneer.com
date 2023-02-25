@@ -6,11 +6,11 @@ import { transition1 } from "../../transitions";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-class HomeVideo extends Component {
+class FilimVideo extends Component {
   render() {
     return (
       <motion.section
-        style={{paddingBottom: "0px", paddingTop: "100px"}}
+        className="Film_main"
         initial={{ opacity: -5, y: "80%" }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: "80%" }}
@@ -56,4 +56,4 @@ class HomeVideo extends Component {
     );
   };
 }
-export default HomeVideo;
+export default FilimVideo;

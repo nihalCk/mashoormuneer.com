@@ -8,10 +8,12 @@ import FilmsData from './FilmsData';
 const Films = () => {
   return (
     <>
+    <section className='films_data_main'>
       {FilmsData.map((props) => (
         <FilmVideos
           video1={props.video1} video2={props.video2} video3={props.video3}/>
       ))}
+    </section>
     </>
   )
 }
