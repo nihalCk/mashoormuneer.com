@@ -1,5 +1,8 @@
 .main__image{
   height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main__image::before {

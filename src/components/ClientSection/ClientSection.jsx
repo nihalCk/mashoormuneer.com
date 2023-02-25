@@ -18,7 +18,7 @@ import { Autoplay, FreeMode, Pagination } from "swiper";
 
 const ClientSection = () => {
   return (
-    <section className="pt-100 ">
+    <section className="pt-100 client_section">
       <Container>
         <Row>
           <Col lg={12}>

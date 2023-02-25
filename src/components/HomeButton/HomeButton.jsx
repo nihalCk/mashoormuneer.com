@@ -17,15 +17,17 @@ const myfunction = () => {
 class HomeButton extends Component {
   render() {
     return (
-      <Container>
-        <Row>
-          <Col className="button-div">
-            <Link to={this.props.path} onClick={myfunction}>
-              <Button variant="outlined">{this.props.heading}</Button>
-            </Link>
-          </Col>
-        </Row>
-      </Container>
+      <section className="home_btn_section">
+        <Container>
+          <Row>
+            <Col className="button-div">
+              <Link to={this.props.path} onClick={myfunction}>
+                <Button variant="outlined">{this.props.heading}</Button>
+              </Link>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     );
   }
 }

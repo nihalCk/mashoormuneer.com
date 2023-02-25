@@ -26,7 +26,9 @@ class HomeVideo extends Component {
                   muted
                   autoPlay
                   allowfullscreen
+                  loop={true}
                 ></video>
+                
               </Link>
             </div>
           </Col>

@@ -3,6 +3,10 @@
   align-items: center;
   justify-content: center;
 }
+.client_section{
+  
+  background-color: white;
+}
 
 .lettersspan,
 .lettersp,

@@ -1,4 +1,7 @@
-
+.home_btn_section{
+  background-color: white;
+  padding: 0 !important;
+}
 .button-div{
     width: 100%;
     display: flex;
