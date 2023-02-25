@@ -6,12 +6,12 @@
 }
 
 
-.main__image::after {
-  content: "";
-  /* display: block;
+.main__image{
+  /* content: "";
+  display: block;
   position: fixed;
   left: 0;
-  top: 0; */
+  top: 0;
   width: 100%;
   height: 100%;
   z-index: -10;
@@ -19,15 +19,10 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-size: cover; */
 
 
-/* 
+
 
   background-image: url(../../assets/img/portfolio/home-section-3-img1.png);
   height: 70vh;
@@ -41,7 +36,13 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
+  background-size: cover;
+
+}
+@media (max-width: 767px) {
+  .main__image{
+    background-attachment: initial;
+  }
 
 }
 .main__image a{
