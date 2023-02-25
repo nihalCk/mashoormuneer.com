@@ -8,6 +8,10 @@
   align-items: center;
   background-position: center;
   background-size:cover ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 .main__image a{
