@@ -17,6 +17,7 @@ const HomePhotography = () => {
               <div className="main__image">
                 <h1><Link to="/photography">Photography</Link></h1>
               </div>
+
             </Col>
           </Row>
         </Container>

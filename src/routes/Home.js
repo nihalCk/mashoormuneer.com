@@ -18,12 +18,13 @@ const Home = () => {
   
   return (
     <>
-   
+     
       <HomeBanner />
       <HomePhotography />
       <HomeAbout />
       <HomeVideo video1={HomeVideoOne} path="/filims"/>
       <HomeButton heading="Show more +" path="/filims" />
+      
       <ClientSection />
       
     </>

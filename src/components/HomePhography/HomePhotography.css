@@ -3,6 +3,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+
+.main__image a:hover{
+  color: #2a0c1a;
+  transition: 1s;
+  
 }
 
 

@@ -7,17 +7,17 @@ import { FiYoutube } from "react-icons/fi";
 import { SiGmail } from "react-icons/si";
 
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Container } from "react-bootstrap";
 
 const navbaritems = [
-  {
-    id: 1,
-    link: "/",
-    name: "Home",
-  },
+  // {
+  //   id: 1,
+  //   link: "/",
+  //   name: "Home",
+  // },
   {
     id: 2,
     link: "/photography",
@@ -40,7 +40,10 @@ const navbaritems = [
   },
 ];
 
+
+
 const Navbar = () => {
+
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
@@ -55,19 +58,19 @@ const Navbar = () => {
 
   window.addEventListener("scroll", changeColor);
 
-  // const myfunction = () => {
-  //   window.scroll({
-  //     top: 0,
-  //     left: 100,
-  //     behavior: "smooth",
-  //   });
-  // };
+  const myfunction = () => {
+    window.scroll({
+      top: 0,
+      left: 100,
+      behavior: "smooth",
+    });
+  };
   return (
     <Container fluid className=" header-bg header">
       <Container className="header-second navbar-inner">
-        {/* <Link to="/" className="logo_show" onClick={myfunction}>
+        <Link to="/" className="logo_show" onClick={myfunction}>
          Mashoor Muneer
-        </Link> */}
+        </Link>
         <ul className={click ? "nav-menu active" : "nav-menu "}>
           {navbaritems.map((navitem) => (
             <li>
