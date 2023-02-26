@@ -89,12 +89,12 @@ const Navbar = () => {
     });
   };
   return (
-    <Container fluid className={show ? 'header-bg header ' : 'hidden'}  >
+    <Container fluid className=" header-bg header">
       <Container className="header-second navbar-inner">
         <Link to="/" className="logo_show" onClick={myfunction}>
           Mashoor Muneer
         </Link>
-        <ul className={click ? "nav-menu active" : "nav-menu " }  >
+        <ul className={click ? "nav-menu active" : "nav-menu "}  >
           {navbaritems.map((navitem) => (
             <li>
               <NavLink
