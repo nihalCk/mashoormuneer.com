@@ -75,8 +75,14 @@ ul {
 }
 
 .section-extra {
-  padding-top: 120px !important;
+  padding-top: 80px !important;
  
+}
+@media (max-width: 768px) {
+  .section-extra {
+    padding-top: 140px !important;
+   
+  }
 }
 
 .hg_100{

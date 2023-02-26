@@ -1,8 +1,14 @@
-.about-img{
-    display: flex;
-   justify-content: flex-end;
+.about-img {
+  display: flex;
+  justify-content: flex-end;
 }
 
+@media (min-width: 1200px) {
+  .about-img {
+    width: 440px;
+  }
+
+}
 
 .about::-webkit-scrollbar {
   display: none !important;
@@ -24,15 +30,15 @@
 }
 
 .about-content p {
-    font-family: "Fanwood Text";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 33px;
-  }
+  font-family: "Fanwood Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 33px;
+}
 
 
-  .home-content {
+.home-content {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -40,10 +46,12 @@
   z-index: 9;
   left: 303px;
 }
+
 .home-content p {
   color: #fff;
   font-size: 22px;
 }
+
 .home-content h1 {
   font-style: normal;
   font-weight: 400;
@@ -60,6 +68,7 @@
   overflow: hidden;
   padding-right: 0.11em;
 }
+
 .about-content h1.letters span.letter_1 {
   position: relative;
   display: inline-block;
@@ -70,6 +79,7 @@
   animation-fill-mode: forwards;
   font-family: 'Raleway-VariableFont_wght';
 }
+
 h5.letters span.letter_2 {
   position: relative;
   display: inline-block;
@@ -79,6 +89,7 @@ h5.letters span.letter_2 {
   opacity: 0;
   animation-fill-mode: forwards;
 }
+
 p.lettersp span.letter_3 {
   position: relative;
   display: inline-block;
@@ -88,6 +99,7 @@ p.lettersp span.letter_3 {
   opacity: 0;
   animation-fill-mode: forwards;
 }
+
 p.lettersbutton .letter_4 {
   position: relative;
   display: inline-block;
@@ -97,11 +109,13 @@ p.lettersbutton .letter_4 {
   opacity: 0;
   animation-fill-mode: forwards;
 }
+
 @keyframes text-up {
   from {
     opacity: 0;
     transform: translate3d(0, 200%, 0);
   }
+
   to {
     opacity: 1;
     transform: translate3d(0, 0, 0);

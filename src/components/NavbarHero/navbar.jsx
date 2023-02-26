@@ -1,7 +1,7 @@
 import "./navbar.css";
 import logo1 from "../../assets/img/Mashoor Muneer.png";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -34,6 +34,28 @@ const navbaritems = [
   },
 ];
 const Navbar = () => {
+
+  
+  const [show, setShow] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setShow(false);
+      } else {
+        setShow(true);
+      }
+    };
+
+    
+  window.addEventListener('scroll', handleScroll);
+
+  // Remove the event listener when the component unmounts
+  return () => {
+    window.removeEventListener('scroll', handleScroll);
+  };
+}, []);
+
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
@@ -57,7 +79,7 @@ const Navbar = () => {
   };
 
   return (
-    <Container fluid className={color ? "header header-bg" : "header"}>
+    <Container fluid className={show ? 'header-bg header ' : 'hidden'}>
       <Container className="header-second navbar-hero">
         <Link to="/" className={color ? "logo_show" : "logo-1"}>
           Mashoor Muneer
