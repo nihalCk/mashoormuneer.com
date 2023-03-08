@@ -51,6 +51,7 @@ const Navbar = () => {
       if (window.scrollY > 100) {
         setShow(false);
       } else {
+        
         setShow(true);
       }
     };

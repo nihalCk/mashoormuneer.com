@@ -1,22 +1,22 @@
 const FilmsData = [
     {
         id: 1,
-        video1: require("../assets/img/Showreel Aug 17.mp4"),
-        video2: require("../assets/img/Showreel Aug 17.mp4"),
-        video3: require("../assets/img/Showreel Aug 17.mp4"),
-        
+        video1: require("https://www.youtube.com/embed/pdY94RWx9Pg"),
+        video2: require("https://www.youtube.com/embed/pdY94RWx9Pg"),
+        video3: require("https://www.youtube.com/embed/pdY94RWx9Pg"),
+
     },
     {
         id: 2,
-        video1: require("../assets/img/Showreel Aug 17.mp4"),
-        video2: require("../assets/img/Showreel Aug 17.mp4"),
-        video3: require("../assets/img/Showreel Aug 17.mp4"),
+        video1: require("https://www.youtube.com/embed/pdY94RWx9Pg"),
+        video2: require("https://www.youtube.com/embed/pdY94RWx9Pg"),
+        video3: require("https://www.youtube.com/embed/pdY94RWx9Pg"),
     },
     {
         id: 3,
-        video1: require("../assets/img/Showreel Aug 17.mp4"),
-        video2: require("../assets/img/Showreel Aug 17.mp4"),
-        video3: require("../assets/img/Showreel Aug 17.mp4"),
+        video1: require("https://www.youtube.com/embed/pdY94RWx9Pg"),
+        video2: require("https://www.youtube.com/embed/pdY94RWx9Pg"),
+        video3: require("https://www.youtube.com/embed/pdY94RWx9Pg"),
     },
 
 

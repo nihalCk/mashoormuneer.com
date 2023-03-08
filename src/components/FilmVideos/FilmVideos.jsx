@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "./FilimVideo.css";
+import "./FilmVideo.css";
 
 import { motion } from "framer-motion";
 import { transition1 } from "../../transitions";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-class FilimVideo extends Component {
+class FilmVideo extends Component {
   render() {
     return (
       <motion.section
@@ -56,4 +56,4 @@ class FilimVideo extends Component {
     );
   };
 }
-export default FilimVideo;
+export default FilmVideo;
