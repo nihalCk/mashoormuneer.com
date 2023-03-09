@@ -14,7 +14,6 @@ import HomeAbout from "../components/HomeAboutSection/HomeAbout";
 AOS.init(); 
 
 const Home = () => {
- 
   
   return (
     <>
