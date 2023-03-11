@@ -62,12 +62,12 @@ const HomeBanner = () => {
           <h1 className="mt-lg-0 mt-4 mb-0 pre_line letters">
             <span className="lettersspan">
               <span className="letter_1" style={{ color: "#ffff" }}>
-                Mashoor
+               
               </span>
             </span>
             <br />
             <span className="lettersspan">
-              <span className="letter_2">Muneer</span>
+              <span className="letter_2"> Mashoor Muneer</span>
             </span>
           </h1>
           <p>

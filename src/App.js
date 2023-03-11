@@ -21,6 +21,7 @@ import Street from "./routes/Street";
 import Abouts from "./routes/Abouts";
 import Navbar from "./components/NavbarInner/NavbarInner";
 import { AnimatePresence } from "framer-motion";
+import YoutubeVideo from "./routes/YoutubeVideo";
 
 function App() {
   const location = useLocation();
@@ -49,6 +50,7 @@ function App() {
           <Route path="/travelspage2" element={<TravelsPage2 />} />
           <Route path="/travelspage3" element={<TravelsPage3 />} />
           <Route path="/travelspage4" element={<TravelsPage4 />} />
+          <Route path="/youtubevideo" element={<YoutubeVideo />} />
           <Route path="/street" element={<Street />} />
         </Routes>
       </AnimatePresence>
