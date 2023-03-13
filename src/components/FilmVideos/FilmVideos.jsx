@@ -24,18 +24,7 @@ class FilimVideo extends Component {
               <div className="film_main_sect">
                 <Link to='/youtubevideo'>
                   <div className="video_main_sect">
-                    <p className="play_btn"> <BsFillPlayFill
-                      size={50}
-                      style={{ cursor: "pointer", color: "white" }} /></p>
-                    <video
-                      src={this.props.video1}
-                      title="YouTube video"
-                      muted
-                      autoPlay
-                      allowfullscreen
-                      playsinline
-                      loop={true}
-                    ></video>
+                    <iframe src={this.props.video1} title="Cinematic Showreel 2022 | Mashoor Muneer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                   </div>
                 </Link>
               </div>
@@ -43,36 +32,14 @@ class FilimVideo extends Component {
             <Col lg={4}>
               <div className="film_main_sect">
                 <div className="video_main_sect">
-                  <p className="play_btn"> <BsFillPlayFill
-                    size={50}
-                    style={{ cursor: "pointer", color: "white" }} /></p>
-                  <video
-                    src={this.props.video2}
-                    title="YouTube video"
-                    muted
-                    autoPlay
-                    allowfullscreen
-                    playsinline
-                    loop={true}
-                  ></video>
+                <iframe src={this.props.video2} title="Cinematic Showreel 2022 | Mashoor Muneer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
               </div>
             </Col>
             <Col lg={4}>
               <div className="film_main_sect">
                 <div className="video_main_sect">
-                  <p className="play_btn"> <BsFillPlayFill
-                    size={50}
-                    style={{ cursor: "pointer", color: "white" }} /></p>
-                  <video
-                    src={this.props.video3}
-                    title="YouTube video"
-                    muted
-                    autoPlay
-                    allowfullscreen
-                    playsinline
-                    loop={true}
-                  ></video>
+                <iframe src={this.props.video3} title="Cinematic Showreel 2022 | Mashoor Muneer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
               </div>
             </Col>

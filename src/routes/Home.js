@@ -8,7 +8,7 @@ import HomeVideoOne from "../assets/img/Showreel Aug 17.mp4";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import HomePhotography from "../components/HomePhography/HomePhotography";
+import HomePhotography from "../components/HomePhotography/HomePhotography";
 import HomeAbout from "../components/HomeAboutSection/HomeAbout";
 
 AOS.init(); 
@@ -21,11 +21,11 @@ const Home = () => {
       <HomeBanner />
       <HomePhotography />
       <HomeAbout />
-      <HomeVideo video1={HomeVideoOne} path="/filims"/>
-      <HomeButton heading="Show more +" path="/filims" />
+      <HomeVideo video1={HomeVideoOne} path="/films"/>
+      <HomeButton heading="Show more +" path="/films" />
       
       <ClientSection />
-      
+      <HomeButton heading="Get in touch" path="/contact" />
     </>
   );
 };
