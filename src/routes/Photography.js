@@ -10,7 +10,7 @@ const Photography = () => {
 
 
       <PotratesTravelStreet
-        img={img1} 
+        img={img1}
         path="/PortraitesPageTwo"
         sub="Show more +"
         heading="Portraites"

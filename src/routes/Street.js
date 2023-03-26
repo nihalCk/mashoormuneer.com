@@ -1,6 +1,6 @@
 import React from "react";
 
-import StreetPage from "../components/Street/StreetPage";
+// import StreetPage from "../components/Street/StreetPage";
 import ImageOnlySection from "../components/ImageOnlySection/ImageOnlySection";
 import StreetPageHead from "../components/Street/StreetPageHead";
 import StreetData from "./StreetData";
@@ -10,11 +10,11 @@ import img1 from "../assets/img/Street/000.png";
 const Street = () => {
   return (
     <>
-
+      {/* 
       <StreetPage
         heading="Eyes: Out of the street"
         st={{ paddingBottom: "0" }}
-      />
+      /> */}
       <StreetPageHead
         img={img1}
         st={{ paddingTop: "0" }}
@@ -22,8 +22,8 @@ const Street = () => {
         author="Redsa"
       />
       {StreetData.map((props) => (
-        <ImageOnlySection 
-        img1={props.img1} img2={props.img2} />
+        <ImageOnlySection
+          img1={props.img1} img2={props.img2} />
       ))}
     </>
   );
