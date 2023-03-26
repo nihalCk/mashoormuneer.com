@@ -96,18 +96,20 @@
   .Port_section_bg {
     height: 285vh;
   }
+
   .portfolio-img-main {
     height: 912px;
-}
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .Port_section_bg {
     height: 288vh;
   }
+
   .portfolio-img-main {
     height: 813px;
-}
+  }
 }
 
 .pointer {
@@ -127,11 +129,18 @@
   .portfolio-img-main {
     height: 630px;
   }
-
   .Port_section_bg {
     height: 284vh;
   }
 }
+
+  @media only screen and (max-width: 414px) {
+    .Port_section_bg {
+      height: 265vh;
+    }
+  }
+
+
 
 @media only screen and (max-width: 375px) {
   .portfolio-img-main {
