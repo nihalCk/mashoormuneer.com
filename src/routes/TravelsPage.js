@@ -1,10 +1,10 @@
 import React from "react";
 
 import ImageOnlySection from "../components/ImageOnlySection/ImageOnlySection";
-import TravelsPageData from "./TravelsPage1Data";
+import TravelsPageData from "./TravelsPageData";
 
 
-const TravelsPage1 = () => {
+const TravelsPage = () => {
   return (
     <>
      {TravelsPageData.map((props) => (
@@ -14,4 +14,4 @@ const TravelsPage1 = () => {
   );
 };
 
-export default TravelsPage1;
+export default TravelsPage;

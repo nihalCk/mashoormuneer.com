@@ -22,40 +22,69 @@ class PotratesTravelStreet extends Component {
       <section className="Port_section_bg">
         <Container>
           <Row>
-            <Col lg={6}>
-            <motion.div
-              initial={{ opacity: -5, x: "-80%" }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: "-80%" }}
-              transition={transition1} class="portfolio-content portfolio-section1">
-                <h1>{this.props.heading}</h1>
-                {/* <p>
-                  {this.props.text}
-                  <br />
-                  <br />
-                  <br /> */}
-                  <Link className="show_button" to={this.props.path} onClick={myfunction}>
-                    {this.props.sub} 
-                  </Link>
-                {/* </p> */}
-                </motion.div>
-            </Col>
-            <Col lg={6} className=''>
+            <Col lg={4}>
+
               <Link to={this.props.path} className="pointer" onClick={myfunction}>
-              <motion.div
+                <motion.div
                   initial={{ opacity: -10 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                   transition={transition1} className="portfolio-img  port-2  pt_6 ">
-                  <img 
-                  
-                  src={this.props.img} alt="#" 
-                  className="img-fluid " />
-                </motion.div>
 
-                {/* <div className="portfolio__arrow">
-                  <img src={Arrow} alt="fa" />
-                </div> */}
+                  <div className="portfolio-img-main">
+                    <img
+
+                      src={this.props.img} alt="#"
+                      className="" />
+                  </div>
+
+                  <h1>{this.props.heading}</h1>
+                  <Link className="show_button" to={this.props.path} onClick={myfunction}>
+                    {this.props.sub}
+                  </Link>
+                </motion.div>
+              </Link>
+            </Col>
+            <Col lg={4} className=''>
+              <Link to={this.props.path2} className="pointer" onClick={myfunction}>
+                <motion.div
+                  initial={{ opacity: -10 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={transition1} className="portfolio-img  port-2  pt_6 ">
+
+                  <div className="portfolio-img-main">
+                    <img
+
+                      src={this.props.img2} alt="#"
+                      className=" " />
+                  </div>
+                  <h1>{this.props.heading2}</h1>
+                  <Link className="show_button" to={this.props.path2} onClick={myfunction}>
+                    {this.props.sub2}
+                  </Link>
+                </motion.div>
+              </Link>
+            </Col>
+            <Col lg={4} className=''>
+              <Link to={this.props.path3} className="pointer" onClick={myfunction}>
+                <motion.div
+                  initial={{ opacity: -10 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={transition1} className="portfolio-img  port-2  pt_6 ">
+
+                  <div className="portfolio-img-main">
+                    <img
+
+                      src={this.props.img3} alt="#"
+                      className="" />
+                  </div>
+                  <h1>{this.props.heading3}</h1>
+                  <Link className="show_button" to={this.props.path3} onClick={myfunction}>
+                    {this.props.sub3}
+                  </Link>
+                </motion.div>
               </Link>
             </Col>
           </Row>

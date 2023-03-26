@@ -5,13 +5,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import { motion } from "framer-motion";
 import { transition1 } from "../../transitions";
 
-// const myfunction = () => {
-//   window.scroll({
-//     top: 0,
-//     left: 100,
-//     behavior: "smooth",
-//   });
-// };
 
 class StreetPage extends Component {
   render() {
