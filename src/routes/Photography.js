@@ -13,7 +13,7 @@ const Photography = () => {
         sub="Show more +"
         heading="Portraites"
         img2={img2}
-        path2="/travelsPage1"
+        path2="/travelsPage1"w
         sub2="Show more +"
         heading2="Travels"
         img3={img3}
