@@ -8,10 +8,10 @@ const about = (props) => {
     <section className="section section-extra hg_100">
       <Container>
         <Row>
-          <Col lg={7}>
-            <div className="about-img pt_6 about__img">
+          <Col lg={7} className="abt_man">
+            
               <img src={props.img} alt="#" />
-            </div>
+          
           </Col>
           <Col lg={5}>
             <div className="about-content" style={props.align}>
