@@ -25,8 +25,8 @@ class HomeVideo extends Component {
                   title="YouTube video"
                   muted
                   autoPlay
-                  allowfullscreen
-                  playsinline
+                  allowFullScreen
+                  playsInline
                   loop={true}
                 ></video>
                 

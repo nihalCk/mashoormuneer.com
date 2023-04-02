@@ -1,11 +1,11 @@
 import React from "react";
-import AboutContact from "../components/AboutContact/AboutContact";
+import AboutPage from "../components/About/About";
 
 
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
 
-import About1 from "../assets/img/about/Myles Loftin photography 1-compressed.jpg";
+import About1 from "../assets/img/about/about_page.jpg";
 
 
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
         exit={{ opacity: 0, y: "80%" }}
         transition={transition1}
       >
-        <AboutContact
+        <AboutPage
           img={About1}
           heading="Mashoor Muneer"
           text="Tempus, aliquam etiam ut adipiscing nec nibh. Nisi, enim arcu

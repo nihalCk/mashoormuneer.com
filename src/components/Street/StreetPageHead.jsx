@@ -11,7 +11,7 @@ import './StreetPage.css'
 class StreetPageHead extends Component {
   render() {
   return (
-    <section className="pb-5" style={this.props.st} >
+    <section className="pt_10" >
         <Container>
           <Row>
             <Col className="" >

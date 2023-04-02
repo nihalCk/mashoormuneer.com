@@ -25,8 +25,8 @@ const PortraitesPage = () => {
       />
 
 
-      {PortraitesPageData.map((props) => (
-        <ImageOnlySection img1={props.img1_1} img2={props.img1_2} />
+      {PortraitesPageData.map((props, index) => (
+        <ImageOnlySection key={index} img1={props.img1_1} img2={props.img1_2} />
       ))}
 
 

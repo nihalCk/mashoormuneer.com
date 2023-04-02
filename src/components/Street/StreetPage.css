@@ -19,7 +19,9 @@
   font-size: 36px;
   line-height: 94px;
 }
-
+.pt_10{
+  padding-top: 50px;
+}
 .about-content p {
     font-family: "Fanwood Text";
     font-style: normal;

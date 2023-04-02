@@ -6,11 +6,11 @@ import About from "./routes/About";
 import Photography from "./routes/Photography";
 import Contact from "./routes/Contact";
 import PortraitesPageTwo from "./routes/PortraitesPage";
-import Filims from "./routes/Filims";
+import Films from "./routes/Films";
 import TravelsPage1 from "./routes/TravelsPage";
 import Street from "./routes/Street";
 import Abouts from "./routes/Abouts";
-import Navbar from "./components/NavbarInner/NavbarInner";
+import Navbar from "./components/Navbar/Navbar";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/portraitesPageTwo" element={<PortraitesPageTwo />} />
           <Route path="/abouts" element={<Abouts />} />
-          <Route path="/filims" element={<Filims />} />
+          <Route path="/films" element={<Films />} />
           <Route path="/travelspage1" element={<TravelsPage1 />} />
           <Route path="/street" element={<Street />} />
         </Routes>

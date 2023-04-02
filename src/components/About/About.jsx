@@ -1,4 +1,4 @@
-import "./AboutContact.css";
+import "./About.css";
 
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
@@ -10,7 +10,7 @@ const about = (props) => {
         <Row>
           <Col lg={7}>
             <div className="about-img pt_6 about__img">
-              <img src={props.img} alt="#" className=" img-fluid" />
+              <img src={props.img} alt="#" />
             </div>
           </Col>
           <Col lg={5}>

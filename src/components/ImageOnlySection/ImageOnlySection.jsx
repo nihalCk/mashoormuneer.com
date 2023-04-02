@@ -10,7 +10,7 @@ import './ImageOnlySection.css';
 
 const ImageOnlySection = (props) => {
   return (
-    <section className="pb-5 imageonly_section">
+    <section className="imageonly_section">
         <Container>
           <Row>
             <Col lg={6} >

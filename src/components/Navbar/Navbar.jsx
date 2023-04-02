@@ -1,4 +1,4 @@
-import "../NavbarInner/NavbarInner.css";
+import "./Navbar.css";
 
 // import logo1 from "../../assets/img/Mashoor Muneer.png";
 import { BsInstagram } from "react-icons/bs";
@@ -6,35 +6,30 @@ import { ImFacebook } from "react-icons/im";
 import { FiYoutube } from "react-icons/fi";
 import { SiGmail } from "react-icons/si";
 
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Container } from "react-bootstrap";
 
 const navbaritems = [
-  // {
-  //   id: 1,
-  //   link: "/",
-  //   name: "Home",
-  // },
   {
-    id: 2,
+    id: 1,
     link: "/photography",
     name: "Photography",
   },
   {
-    id: 3,
-    link: "/filims",
+    id: 2,
+    link: "/films",
     name: "Films",
   },
   {
-    id: 4,
+    id: 3,
     link: "/about",
     name: "About",
   },
   {
-    id: 5,
+    id: 4,
     link: "/contact",
     name: "Contact",
   },
@@ -44,42 +39,10 @@ const navbaritems = [
 
 const Navbar = () => {
 
-  const [show, setShow] = useState(true);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setShow(false);
-      } else {
-        setShow(true);
-      }
-    };
-
-    
-  window.addEventListener('scroll', handleScroll);
-
-  // Remove the event listener when the component unmounts
-  return () => {
-    window.removeEventListener('scroll', handleScroll);
-  };
-}, []);
-
-
-
-
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
-  const [setColor] = useState(false);
-  const changeColor = () => {
-    if (window.scrollY >= 1) {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
-  };
 
-  window.addEventListener("scroll", changeColor);
 
   const myfunction = () => {
     window.scroll({
@@ -96,7 +59,7 @@ const Navbar = () => {
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu "}  >
           {navbaritems.map((navitem) => (
-            <li>
+            <li key={navitem.id}>
               <NavLink
                 className={(navData) => (navData.isActive ? "active " : "")}
                 to={navitem.link}

@@ -1,11 +1,11 @@
 import React from "react";
-import AboutContact from "../components/AboutContact/AboutContact";
-import Contact1 from "../assets/img/Contact/Marià Casals 1.png";
+
 
 
 
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
+import ContactPage from "../components/Contact/Contact";
 
 const Contact = () => {
   return (
@@ -17,7 +17,17 @@ const Contact = () => {
         exit={{ opacity: 0, y: "80%" }}
         transition={transition1}
       >
-        <AboutContact
+        
+        
+        
+        
+        
+        
+        <ContactPage />
+        
+        
+        
+        {/* <AboutContact
           img={Contact1}
           heading="Contact"
           text="Tempus, aliquam etiam ut adipiscing nec nibh. Nisi, enim arcu
@@ -32,7 +42,7 @@ const Contact = () => {
             justifyContent: "flex-start",
             flexDirection: "column",
           }}
-        />
+        /> */}
       </motion.div>
     </>
   );

@@ -1,7 +1,7 @@
 const PortraitesPageData = [
     {
         id: 1,
-        img1_1: require('../assets/img/portfolio-one/MSR08099.png'),
+        img1_1: require('../assets/img/portfolio-one/MSR08309.png'),
         img1_2: require('../assets/img/portfolio-one/MSR08309.png')
 
         

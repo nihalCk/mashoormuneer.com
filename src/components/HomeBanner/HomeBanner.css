@@ -82,8 +82,8 @@
 
 @media screen and (max-width: 1040px) {
     section {
-      padding-top: 30px;
-      padding-bottom: 30px;
+      padding-top: 0;
+      padding-bottom: 0;
     }
     .pa_tp-5 {
       padding-top: 20px;
