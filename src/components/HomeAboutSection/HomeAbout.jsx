@@ -12,7 +12,7 @@ function HomeAbout() {
                     <Row>
                         <Col>
                             <div className="main_sect">
-                                <p>Filimmaker <br />
+                                <p>Filmmaker <br />
                                     Photographer <br /> Content Creator</p>
                             </div>
                         </Col>
