@@ -50,10 +50,11 @@ const HomeBanner = () => {
         className="slider position-relative ">
         <Swiper
           spaceBetween={30}
+          speed={3000}
           effect={"fade"}
           loop={true}
           autoplay={{
-            delay: 2500,
+            delay: 1500,
             disableOnInteraction: false,
           }}
           modules={[Autoplay, EffectFade, Navigation, Pagination]}
