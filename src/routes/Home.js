@@ -17,13 +17,11 @@ const Home = () => {
   
   return (
     <>
-     
       <HomeBanner />
       <HomePhotography />
       <HomeAbout />
-      <HomeVideo video1={HomeVideoOne} path="/films"/>
+      <HomeVideo video1={HomeVideoOne} path="/filiims"/>
       <HomeButton heading="Show more +" path="/films" />
-      
       <ClientSection />
       <HomeButton heading="Get in touch" path="/contact" />
     </>
