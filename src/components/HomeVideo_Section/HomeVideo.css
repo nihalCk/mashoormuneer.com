@@ -10,12 +10,12 @@
     position: relative;
     padding: 0;
 }
-.filimtext{
+.film-text{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.filimtext::after{
+.film-text::after{
     content: "Films";
     position: absolute;
     font-size: 70px;

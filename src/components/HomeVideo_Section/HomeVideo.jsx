@@ -18,7 +18,7 @@ class HomeVideo extends Component {
 
         <Row>
           <Col lg={12} className="dum">
-            <div className="home_video filimtext">
+            <div className="home_video film-text">
               <Link to={this.props.path}>
               <video
                   src={this.props.video1}
