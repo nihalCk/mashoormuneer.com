@@ -1,5 +1,5 @@
 .about-img {
-  width: 619px;
+  width: 119px;
   display: flex;
   justify-content: flex-end;
 }
@@ -10,6 +10,9 @@ img {
   object-fit: contain;
 }
 
+.abt_man{
+  width: 600px;
+}
 
 
 .about::-webkit-scrollbar {

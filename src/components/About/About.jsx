@@ -9,9 +9,7 @@ const about = (props) => {
       <Container>
         <Row>
           <Col lg={7} className="abt_man">
-            
-              <img src={props.img} alt="#" />
-          
+            <img src={props.img} alt="#" />
           </Col>
           <Col lg={5}>
             <div className="about-content" style={props.align}>

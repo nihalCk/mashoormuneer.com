@@ -5,7 +5,7 @@ import AboutPage from "../components/About/About";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
 
-import About1 from "../assets/img/about/about_page.jpg";
+import About1 from "../assets/img/about/mashoor_about.jpg";
 
 
 const About = () => {

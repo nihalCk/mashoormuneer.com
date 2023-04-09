@@ -21,7 +21,6 @@ const Home = () => {
       <HomePhotography />
       <HomeAbout />
       <HomeVideo video1={HomeVideoOne} path="/films"/>
-      <HomeButton heading="Show more +" path="/films" />
       <ClientSection />
       <HomeButton heading="Get in touch" path="/contact" />
     </>

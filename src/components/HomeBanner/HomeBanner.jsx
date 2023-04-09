@@ -79,8 +79,7 @@ const HomeBanner = () => {
             </span>
           </h1>
           <p>
-            Filimmaker <br />
-            Photographer, Content Creator{" "}
+            Filmmaker, Photographer, Content Creator{" "}
           </p>
         </div>
       </motion.div>

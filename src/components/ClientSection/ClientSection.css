@@ -35,7 +35,7 @@ h1.letters span.letter_2 {
   animation-duration: 0.8s;
   opacity: 0;
   animation-fill-mode: forwards;
-  font-family: 'Raleway-VariableFont_wght';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 p.lettersp span.letter_1 {
@@ -75,4 +75,8 @@ h1.letters {
 .clent-main{
   display: flex;
   justify-content: space-between;
+}
+
+.client_section{
+  margin-top: 100px;
 }

@@ -7,7 +7,7 @@
 //   FaDiscord,
 // } from 'react-icons/fa';
 // import images
-import AboutImg from '../src/assets/img/about/plate.png';
+// import AboutImg from '../src/assets/img/about/plate.png';
 // import ModelWhiteImg from '../src/assets/img/model-white.png';
 // import ModelBlackImg from '../src/assets/img/model-black.png';
 // import MenuImg1 from '../src/assets/img/menu/1.png';
@@ -46,14 +46,14 @@ import AboutImg from '../src/assets/img/about/plate.png';
 //   { href: '/', icon: <FaDiscord /> },
 // ];
 
-export const aboutData = {
-  pretitle: 'our story',
-  title: 'who we are',
-  subtitle:
-    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet consequatur, quasi minima molestiae ex exercitationem culpa quisquam architecto quaerat, iusto dolores labore, sapiente magni rem commodi aperiam ad dolorem neque ducimus. Placeat vel non quod quis pariatur a aperiam, aliquam adipisci voluptatum voluptatem sit cupiditate dolore natus beatae earum omnis.',
-  btnText: 'find out more',
-  image: AboutImg,
-};
+// export const aboutData = {
+//   pretitle: 'our story',
+//   title: 'who we are',
+//   subtitle:
+//     'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet consequatur, quasi minima molestiae ex exercitationem culpa quisquam architecto quaerat, iusto dolores labore, sapiente magni rem commodi aperiam ad dolorem neque ducimus. Placeat vel non quod quis pariatur a aperiam, aliquam adipisci voluptatum voluptatem sit cupiditate dolore natus beatae earum omnis.',
+//   btnText: 'find out more',
+//   image: AboutImg,
+// };
 
 // export const menuData = {
 //   title: 'delicious flavour of autumn',
