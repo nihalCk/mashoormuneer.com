@@ -1,7 +1,7 @@
 import React from "react";
 import PotratesTravelStreet from "../components/PotratesTravelStreet/PotratesTravelStreet";
-import img1 from "../assets/img/portfolio/img1.png";
-import img2 from "../assets/img/portfolio/img2-compressed.jpg";
+import img1 from "../assets/img/portfolio/Portraites_thumbnail.jpg";
+import img2 from "../assets/img/portfolio/travels_thumbnail.JPG";
 import img3 from "../assets/img/portfolio/img3.png";
 
 const Photography = () => {

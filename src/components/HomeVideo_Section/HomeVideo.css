@@ -3,37 +3,43 @@
     padding: 0;
     background-color: white;
 }
-.home_video video{
+
+.home_video video {
     width: 100%;
 }
-.dum{
+
+.dum {
     position: relative;
     padding: 0;
 }
-.film-text{
+
+.film-text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.film-text::after{
+
+.film-text::after {
     content: "Films";
     position: absolute;
     font-size: 70px;
     color: white;
     z-index: 9999;
 }
-.video_main_sect{
+
+.video_main_sect {
     position: relative;
 }
-.play_btn{
+
+.play_btn {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( -50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 @media (max-width: 768px) {
-    .film-text::after{
+    .film-text::after {
         font-size: 30px;
     }
 }
